@@ -1,9 +1,26 @@
-from src.data.redis.func.set import Set
-from src.data.redis.func.get import Get
+from src.data.mongo.func.deletar import Deletar
+from src.data.mongo.func.buscar import Buscar
+from src.data.mongo.func.criar import Criar
+from src.data.mongo.func.atualizar import Atualizar
 
-chave = 'teste'
-valor = 'valor'
+# print(Criar("testes",
+#     {
+#         "nome": "João",
+#         "idade": 20
+#     }
+# ))
 
-Set(chave, valor)
+print(Atualizar("testes",
+    {
+        "nome": "João",
+        "idade": 27
+    },
+    {
+        "nome": "João"
+    }            
+    ))
 
-print(Get("pedro"))
+dados = Buscar("testes")
+
+for dado in dados:
+    print(dado)
