@@ -1,5 +1,9 @@
-from src.menu.menuPrincipal import MenuPrincipal
+from src.data.redis.func.set import Set
+from src.data.redis.func.get import Get
 
+chave = 'teste'
+valor = 'valor'
 
-while(MenuPrincipal()):
-    pass
+Set(chave, valor)
+
+print(Get("pedro"))
