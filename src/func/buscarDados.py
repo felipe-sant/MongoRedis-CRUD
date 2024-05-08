@@ -7,6 +7,5 @@ def BuscarDados(tipo):
     listaDados = []
     for chave in chaves:
         dado = get(chave)
-        dado = json.loads(dado.encode("utf-8"))
         listaDados.append(dado)
     return listaDados
