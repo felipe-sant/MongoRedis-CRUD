@@ -1,4 +1,4 @@
 from src.data.redis.connection import connection
 
-def Key(chave):
+def key(chave):
     return connection.keys(chave)

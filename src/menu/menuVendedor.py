@@ -1,8 +1,8 @@
-from src.functions.limparTerminal import LimparTerminal
+from src.functions.limparTerminal import limparTerminal
 
-def MenuVendedor():
+def menuVendedor():
     while True:
-        LimparTerminal()
+        limparTerminal()
         print("=-=" * 20)
         print("Menu Vendedor")
         print("1 - Cadastrar Vendedor")

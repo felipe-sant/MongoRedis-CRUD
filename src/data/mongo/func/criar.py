@@ -1,6 +1,6 @@
 from src.data.mongo.connection import database
 
-def Criar(colecao, dados):
+def criar(colecao, dados):
     if type(dados) == dict:
         database[colecao].insert_one(dados)
         return "Documento inserido com sucesso!"

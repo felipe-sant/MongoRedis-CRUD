@@ -1,4 +1,4 @@
 from src.data.redis.connection import connection
 
-def Set(chave, valor):
+def set(chave, valor):
     connection.set(chave, valor)

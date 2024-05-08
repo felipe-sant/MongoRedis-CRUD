@@ -1,12 +1,12 @@
-from src.functions.limparTerminal import LimparTerminal
-from src.menu.menuCompra import MenuCompra
-from src.menu.menuProduto import MenuProduto
-from src.menu.menuUsuario import MenuUsuario
-from src.menu.menuVendedor import MenuVendedor
+from src.functions.limparTerminal import limparTerminal
+from src.menu.menuCompra import menuCompra
+from src.menu.menuProduto import menuProduto
+from src.menu.menuUsuario import menuUsuario
+from src.menu.menuVendedor import menuVendedor
 
-def MenuPrincipal():
+def menuPrincipal():
     while True:
-        LimparTerminal()
+        limparTerminal()
         print("===" * 20)
         print("Menu Principal")
         print("1 - CRUD Compras")
@@ -21,13 +21,13 @@ def MenuPrincipal():
         
         match opcao:
             case "1":
-                MenuCompra()
+                menuCompra()
             case "2":
-                MenuProduto()
+                menuProduto()
             case "3":
-                MenuUsuario()
+                menuUsuario()
             case "4":
-                MenuVendedor()
+                menuVendedor()
             case "5":
                 print("Sincronizar Dados")
             case "0":

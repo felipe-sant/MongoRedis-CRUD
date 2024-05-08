@@ -1,4 +1,4 @@
 from src.data.redis.connection import connection
 
-def Del(chave):
+def delete(chave):
     connection.delete(chave)

@@ -1,4 +1,4 @@
 import os
 
-def LimparTerminal():
+def limparTerminal():
     os.system("cls")

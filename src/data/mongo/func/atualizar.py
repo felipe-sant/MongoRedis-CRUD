@@ -1,6 +1,6 @@
 from src.data.mongo.connection import database
 
-def Atualizar(colecao, novoDado, filtro):
+def atualizar(colecao, novoDado, filtro):
     try:
         database[colecao].update_many(filtro, {"$set": novoDado})
         return "Documento atualizado com sucesso!"
