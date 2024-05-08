@@ -10,7 +10,7 @@ def menuUsuario():
         print("Menu Usuários")
         print("1 - Cadastrar Usuário")
         print("2 - Consultar Usuários")
-        print("3 - Atualizar Usuário")
+        # print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
         print("0 - Voltar")
         print("=-" * 30 + "\n")
