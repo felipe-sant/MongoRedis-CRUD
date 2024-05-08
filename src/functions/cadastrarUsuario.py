@@ -1,5 +1,5 @@
-from src.functions.criar.criarUsuario import criarUsuario
-from src.functions.criar.criarChave import criarChave
+from src.functions.criarUsuario import criarUsuario
+from src.functions.criarChave import criarChave
 from src.data.redis.func.set import set
 from src.functions.usuarioParaJson import usuarioParaJson
 
