@@ -12,8 +12,8 @@ def atualizarUsuario():
         if (verificarChaveExistente("usuario", chaveParaAtualizar)):
             usuarioJson = get(chaveParaAtualizar)
             usuario = jsonParaUsuario(usuarioJson)
-            novoUsuario = criarUsuario(usuario)
-            novoUsuarioJson = usuarioParaJson(novoUsuario, chaveParaAtualizar)
+            usuario.atualizar(criarUsuario())
+            novoUsuarioJson = usuarioParaJson(usuario, chaveParaAtualizar)
             set(chaveParaAtualizar, novoUsuarioJson)
             print("\nUsuário atualizado com sucesso!")
             input()
