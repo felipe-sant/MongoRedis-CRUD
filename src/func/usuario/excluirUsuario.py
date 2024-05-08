@@ -13,7 +13,7 @@ def excluirUsuario():
         else:
             raise Exception("Chave não encontrada!")
     except Exception as e:
-        print(f"Erro ao deletar usuário: {e}")
+        print(f"\nErro ao deletar usuário: {e}")
         input()
 
 def excluirTodosUsuarios():
@@ -24,5 +24,5 @@ def excluirTodosUsuarios():
             print(f"Chave {chave} deletada com sucesso")
         except Exception as e:
             print(f"Ocorreu um erro ao deletar a chave {chave}")
-    print("\nTodos os usuários foram deletados com sucesso!\n")
+    print("\nTodos os usuários foram deletados com sucesso!")
     input()

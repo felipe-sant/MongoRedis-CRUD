@@ -7,10 +7,8 @@ def listarUsuarios(usuarios):
         contador += 1
         usuario = jsonParaUsuario(elemento)
         print(f"- usuário - ({contador}/{total}) -")
-        try:
+        if "chave" in elemento:
             chave = elemento["chave"].replace("usuario@", "")
-            print(f"chave: {chave}")  
-        except:   
-            pass
+            print(f"chave: {chave}")
         usuario.mostrar()
         input()
