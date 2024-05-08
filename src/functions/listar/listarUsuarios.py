@@ -7,5 +7,10 @@ def listarUsuarios(usuarios):
         contador += 1
         usuario = Usuario(elemento["nome"], elemento["endereco"], elemento["rg"])
         print(f"- Usuario ({contador}/{total}) -")
+        try:
+            chave = elemento["chave"]
+            print(f"chave: {chave}")  
+        except:   
+            pass
         usuario.mostrar()
         input()
