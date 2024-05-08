@@ -5,14 +5,14 @@ from src.func.usuario.consultarUsuario import consultarUsuario
 def menuUsuario():
     while True:
         limparTerminal()
-        print("=-=" * 20)
+        print("=-" * 30)
         print("Menu Usuários")
         print("1 - Cadastrar Usuário")
         print("2 - Consultar Usuários")
         print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
         print("0 - Voltar")
-        print("=-=" * 20 + "\n")
+        print("=-" * 30 + "\n")
         
         opcao = str(input("Digite a opção desejada: "))
         

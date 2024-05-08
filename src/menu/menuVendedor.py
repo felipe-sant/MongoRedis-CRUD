@@ -3,14 +3,14 @@ from src.utils.limparTerminal import limparTerminal
 def menuVendedor():
     while True:
         limparTerminal()
-        print("=-=" * 20)
+        print("=-" * 30)
         print("Menu Vendedor")
         print("1 - Cadastrar Vendedor")
         print("2 - Consultar Vendedores")
         print("3 - Atualizar Vendedor")
         print("4 - Deletar Vendedor")
         print("0 - Voltar")
-        print("=-=" * 20 + "\n")
+        print("=-" * 30 + "\n")
         
         opcao = str(input("Digite a opção desejada: "))
         

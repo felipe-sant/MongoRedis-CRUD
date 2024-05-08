@@ -7,7 +7,7 @@ from src.menu.menuVendedor import menuVendedor
 def menuPrincipal():
     while True:
         limparTerminal()
-        print("===" * 20)
+        print("==" * 30)
         print("Menu Principal")
         print("1 - CRUD Compras")
         print("2 - CRUD Produtos")
@@ -15,7 +15,7 @@ def menuPrincipal():
         print("4 - CRUD Vendedores")
         print("5 - Sincronizar Dados")
         print("0 - Sair")
-        print("===" * 20 + "\n")
+        print("==" * 30 + "\n")
         
         opcao = str(input("Digite a opção desejada: "))
         
