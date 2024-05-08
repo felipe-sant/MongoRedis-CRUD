@@ -23,15 +23,21 @@ Integrar Redis e MongoDB para criar uma solução de banco de dados mais robusta
 - **Explorar Python no Contexto de Armazenamento em Memória e em Bancos de Dados Não Relacionais**: Utilizar a linguagem Python para interagir tanto com o Redis quanto com o MongoDB. Empregar bibliotecas específicas que facilitem a manipulação de dados em memória com o Redis, e explorar as bibliotecas de Python para interagir com o MongoDB, proporcionando uma compreensão abrangente do uso de Python em ambientes de armazenamento em memória e em bancos de dados não relacionais.
 - **Construir uma Aplicação Prática de Sincronização entre Redis e MongoDB**: Integrar os conhecimentos adquiridos para desenvolver uma aplicação prática que demonstre a sincronização de dados entre o Redis e o MongoDB. Esta aplicação irá realizar operações de manipulação de dados no Redis e garantir que essas mudanças sejam refletidas automaticamente no MongoDB, proporcionando uma experiência completa de desenvolvimento e sincronização entre diferentes tipos de bancos de dados não relacionais.
 
-<!--
 ## 🖥️ Requisitos
 
 Para executar este projeto, você precisará de:
 
 - Python 3.6 ou superior instalado em seu sistema.
-- Biblioteca redis instalada, que pode ser feita através do comando
+- Biblioteca redis instalada, que pode ser feita através do comando:
 
         pip install redis
+
+- Biblioteca mongo instalada, que pode ser feita através do comando:
+
+        pip install pymongo
+
+
+<!--
 
 ## ⚙️ Como Executar:
 
