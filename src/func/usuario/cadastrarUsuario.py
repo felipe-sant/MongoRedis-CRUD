@@ -1,7 +1,7 @@
-from src.functions.criarUsuario import criarUsuario
-from src.functions.criarChave import criarChave
+from src.func.criarChave import criarChave
 from src.data.redis.func.set import set
-from src.functions.usuarioParaJson import usuarioParaJson
+from src.utils.usuarioParaJson import usuarioParaJson
+from src.func.usuario.criarUsuario import criarUsuario
 
 def cadastrarUsuario():
     try:

@@ -1,6 +1,6 @@
-from src.functions.limparTerminal import limparTerminal
-from src.functions.cadastrarUsuario import cadastrarUsuario
-from src.functions.consultarUsuario import consultarUsuario
+from src.utils.limparTerminal import limparTerminal
+from src.func.usuario.cadastrarUsuario import cadastrarUsuario
+from src.func.usuario.consultarUsuario import consultarUsuario
 
 def menuUsuario():
     while True:
@@ -30,4 +30,5 @@ def menuUsuario():
             case "0":
                 break
             case _:
-                print("Opção inválida")
+                print("\nOpção inválida\n")
+                input()

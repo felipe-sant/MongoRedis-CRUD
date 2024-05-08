@@ -1,6 +1,6 @@
-from src.functions.criar.criarChave import criarChave
-from src.functions.buscarDados import BuscarDados
-from functions.listarUsuarios import listarUsuarios
+from src.func.buscarDados import BuscarDados
+from src.func.usuario.listarUsuarios import listarUsuarios
+from src.func.criarChave import criarChave
 
 def consultarUsuario():
     chave = str(input("Digite a chave do usuario (deixe vazio para listar todos): "))

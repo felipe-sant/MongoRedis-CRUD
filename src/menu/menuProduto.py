@@ -1,4 +1,4 @@
-from src.functions.limparTerminal import limparTerminal
+from src.utils.limparTerminal import limparTerminal
 
 def menuProduto():
     while True:
@@ -30,4 +30,5 @@ def menuProduto():
             case "0":
                 break
             case _:
-                print("Opção inválida")
+                print("\nOpção inválida\n")
+                input()

@@ -1,4 +1,4 @@
-from src.functions.limparTerminal import limparTerminal
+from src.utils.limparTerminal import limparTerminal
 from src.menu.menuCompra import menuCompra
 from src.menu.menuProduto import menuProduto
 from src.menu.menuUsuario import menuUsuario
@@ -30,7 +30,9 @@ def menuPrincipal():
                 menuVendedor()
             case "5":
                 print("Sincronizar Dados")
+                input()
             case "0":
                 break
             case _:
-                print("Opção inválida")
+                print("\nOpção inválida\n")
+                input()
