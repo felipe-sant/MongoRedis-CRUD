@@ -5,18 +5,6 @@ from src.data.redis.func.get import get
 from src.func.verificarChaveExistente import verificarChaveExistente
 
 def consultarUsuario():
-    # chave = str(input("Digite a chave do usuário (deixe vazio para listar todos): "))
-    # try:
-    #     print()
-    #     if chave == "":
-    #         usuarios = BuscarDados("usuario")
-    #         listarUsuarios(usuarios)
-    #     else:
-    #         chave = criarChave("usuario", chave)
-    #         if (verificarChaveExistente("usuario", chave)):
-    #             usuario = get(chave)
-    #             listarUsuarios([usuario])
-
     nome = str(input("Digite o nome do usuário (deixe vazio para listar todos): "))
     try:
         print()
