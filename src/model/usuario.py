@@ -20,8 +20,6 @@ class Usuario():
         
     def setRg(self, rg:str):
         self.rg = rg
-        
-    # dev functions
     
     def mostrar(self):
         print(f"nome: {self.nome}")
