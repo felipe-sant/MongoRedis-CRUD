@@ -8,7 +8,7 @@ def listarUsuarios(usuarios):
         usuario = Usuario(elemento["nome"], elemento["endereco"], elemento["rg"])
         print(f"- Usuario ({contador}/{total}) -")
         try:
-            chave = elemento["chave"]
+            chave = elemento["chave"].replace("usuario@", "")
             print(f"chave: {chave}")  
         except:   
             pass
