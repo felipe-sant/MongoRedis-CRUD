@@ -8,5 +8,5 @@ def criarChave(colecao, chave = None):
             chave = novaChave
             break
     
-    chave = colecao + "@" + chave.replace(" ", "_")
+    chave = colecao + "@" + chave.replace(" ", "_").lower()
     return chave

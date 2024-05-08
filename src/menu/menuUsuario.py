@@ -1,5 +1,6 @@
 from src.functions.limparTerminal import limparTerminal
 from src.functions.cadastrarUsuario import cadastrarUsuario
+from src.functions.consultarUsuario import consultarUsuario
 
 def menuUsuario():
     while True:
@@ -18,10 +19,8 @@ def menuUsuario():
         match opcao:
             case "1":
                 cadastrarUsuario()
-                input()
             case "2":
-                print("Consultar Usuários")
-                input()
+                consultarUsuario()
             case "3":
                 print("Atualizar Usuário")
                 input()
