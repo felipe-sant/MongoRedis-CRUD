@@ -1,7 +1,7 @@
 from src.utils.limparTerminal import limparTerminal
 from src.func.usuario.cadastrarUsuario import cadastrarUsuario
 from src.func.usuario.consultarUsuario import consultarUsuario
-from src.func.usuario.excluirUsuario import excluirUsuario
+from src.func.usuario.excluirUsuario import excluirTodosUsuarios, excluirUsuario
 
 def menuUsuario():
     while True:
@@ -27,7 +27,8 @@ def menuUsuario():
                 input()
             case "4":
                 excluirUsuario()
-                input()
+            case "5":
+                excluirTodosUsuarios()
             case "0":
                 break
             case _:
