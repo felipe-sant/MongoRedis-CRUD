@@ -32,6 +32,7 @@ def menuPrincipal():
                 print("Sincronizar Dados")
                 input()
             case "0":
+                limparTerminal()
                 break
             case _:
                 print("\nOpção inválida\n")

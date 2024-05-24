@@ -1,6 +1,6 @@
 import redis
 
 connection = redis.Redis(
-  host='redis-15280.c308.sa-east-1-1.ec2.cloud.redislabs.com',
-  port=15280,
-  password='nuSpRHkgcARhcUYlMutMsn7I2kWKUE91')
+  host='redis-15624.c241.us-east-1-4.ec2.redns.redis-cloud.com',
+  port=15624,
+  password='iMkKmyB9atTi8PyBAWA2l0JWiFLyKnAV')

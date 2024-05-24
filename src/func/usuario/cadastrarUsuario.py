@@ -6,16 +6,15 @@ from src.func.verificarChaveExistente import verificarChaveExistente
 
 def cadastrarUsuario():
     chave = criarChave("usuario")
-    if (verificarChaveExistente("usuario", chave)):
-        print("\nUsuário já cadastrado!")
-        input()
-        return
-    usuario = criarUsuario()
     try:
+        if (verificarChaveExistente("usuario", chave)):
+            print("\nUsuário já cadastrado!")
+            input()
+            return
+        usuario = criarUsuario()
         set(chave, usuarioParaJson(usuario, chave))
         print("\nUsuário cadastrado com sucesso!")
         input()
     except Exception as e:
         print(f"\nErro ao cadastrar usuário: {e}")
         input()
-    

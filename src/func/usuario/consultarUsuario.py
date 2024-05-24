@@ -21,5 +21,5 @@ def consultarUsuario():
                 return
             listarUsuarios(usuarios)
     except Exception as e:
-        print(f"\nErro ao buscar usuário: {e}")
+        print(f"Erro ao buscar usuário: {e}")
         input()

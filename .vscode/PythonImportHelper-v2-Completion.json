@@ -1,0 +1,717 @@
+[
+    {
+        "label": "database",
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "pymongo",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ServerApi",
+        "importPath": "pymongo.server_api",
+        "description": "pymongo.server_api",
+        "isExtraImport": true,
+        "detail": "pymongo.server_api",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "isExtraImport": true,
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "isExtraImport": true,
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuarios",
+        "importPath": "src.func.usuario.listarUsuarios",
+        "description": "src.func.usuario.listarUsuarios",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.listarUsuarios",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "importPath": "src.menu.menuCompra",
+        "description": "src.menu.menuCompra",
+        "isExtraImport": true,
+        "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuProduto",
+        "importPath": "src.menu.menuProduto",
+        "description": "src.menu.menuProduto",
+        "isExtraImport": true,
+        "detail": "src.menu.menuProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuUsuario",
+        "importPath": "src.menu.menuUsuario",
+        "description": "src.menu.menuUsuario",
+        "isExtraImport": true,
+        "detail": "src.menu.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "importPath": "src.menu.menuVendedor",
+        "description": "src.menu.menuVendedor",
+        "isExtraImport": true,
+        "detail": "src.menu.menuVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarUsuario",
+        "importPath": "src.func.usuario.cadastrarUsuario",
+        "description": "src.func.usuario.cadastrarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.cadastrarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "consultarUsuario",
+        "importPath": "src.func.usuario.consultarUsuario",
+        "description": "src.func.usuario.consultarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.consultarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "excluirTodosUsuarios",
+        "importPath": "src.func.usuario.excluirUsuario",
+        "description": "src.func.usuario.excluirUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.excluirUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "excluirUsuario",
+        "importPath": "src.func.usuario.excluirUsuario",
+        "description": "src.func.usuario.excluirUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.excluirUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuario",
+        "importPath": "src.func.usuario.atualizarUsuario",
+        "description": "src.func.usuario.atualizarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "kind": 2,
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "peekOfCode": "def atualizar(colecao, novoDado, filtro):\n    try:\n        database[colecao].update_many(filtro, {\"$set\": novoDado})\n        return \"Documento atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao atualizar documento: {e}\"",
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "peekOfCode": "def buscar(colecao, filtro=None):\n    try:\n        dados = database[colecao].find(filtro)\n        return dados\n    except Exception as e:\n        return None",
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "criar",
+        "kind": 2,
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "peekOfCode": "def criar(colecao, dados):\n    if type(dados) == dict:\n        database[colecao].insert_one(dados)\n        return \"Documento inserido com sucesso!\"\n    elif type(dados) == list:\n        database[colecao].insert_many(dados)\n        return f\"{len(dados)} documentos inseridos com sucesso!\"\n    else:\n        return \"Erro ao inserir documento!\"",
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "deletar",
+        "kind": 2,
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "peekOfCode": "def deletar(colecao, filtro):\n    try:\n        database[colecao].delete_one(filtro)\n        return \"Documento deletado com sucesso!\"\n    except Exception as e:\n        return \"Erro ao deletar documento!\"\ndef deletarTodos(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"",
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodos",
+        "kind": 2,
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "peekOfCode": "def deletarTodos(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao deletar documentos: {e}\"",
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "peekOfCode": "client = pymongo.MongoClient(\"mongodb+srv://root:root@fatec.e8bszzd.mongodb.net/?retryWrites=true&w=majority&appName=fatec\", server_api=ServerApi('1'))\ndatabase = client.MercadoLivre",
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "src.data.mongo.connection",
+        "description": "src.data.mongo.connection",
+        "peekOfCode": "database = client.MercadoLivre",
+        "detail": "src.data.mongo.connection",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "peekOfCode": "def delete(chave):\n    connection.delete(chave)",
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "kind": 2,
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "peekOfCode": "def get(chave):\n    try:\n        return json.loads(connection.get(chave))\n    except Exception as e:\n        return None",
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 2,
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "peekOfCode": "def key(chave):\n    return connection.keys(chave+\"@*\")",
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "kind": 2,
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "peekOfCode": "def set(chave, valor):\n    connection.set(chave, valor)",
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "peekOfCode": "connection = redis.Redis(\n  host='redis-15624.c241.us-east-1-4.ec2.redns.redis-cloud.com',\n  port=15624,\n  password='iMkKmyB9atTi8PyBAWA2l0JWiFLyKnAV')",
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.atualizarUsuario",
+        "description": "src.func.usuario.atualizarUsuario",
+        "peekOfCode": "def atualizarUsuario():\n    chaveParaAtualizar = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chaveParaAtualizar)):\n            usuarioJson = get(chaveParaAtualizar)\n            usuario = jsonParaUsuario(usuarioJson)\n            usuario.atualizar(criarUsuario())\n            novoUsuarioJson = usuarioParaJson(usuario, chaveParaAtualizar)\n            set(chaveParaAtualizar, novoUsuarioJson)\n            print(\"\\nUsuário atualizado com sucesso!\")",
+        "detail": "src.func.usuario.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.cadastrarUsuario",
+        "description": "src.func.usuario.cadastrarUsuario",
+        "peekOfCode": "def cadastrarUsuario():\n    chave = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chave)):\n            print(\"\\nUsuário já cadastrado!\")\n            input()\n            return\n        usuario = criarUsuario()\n        set(chave, usuarioParaJson(usuario, chave))\n        print(\"\\nUsuário cadastrado com sucesso!\")",
+        "detail": "src.func.usuario.cadastrarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "consultarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.consultarUsuario",
+        "description": "src.func.usuario.consultarUsuario",
+        "peekOfCode": "def consultarUsuario():\n    nome = str(input(\"Digite o nome do usuário (deixe vazio para listar todos): \"))\n    try:\n        print()\n        if nome == \"\":\n            usuarios = BuscarDados(\"usuario\")\n            if usuarios == []:\n                print(\"Nenhum usuário encontrado\")\n                input()\n                return",
+        "detail": "src.func.usuario.consultarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "peekOfCode": "def criarUsuario():\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(nome, endereco, rg)\n    return usuario",
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "excluirUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.excluirUsuario",
+        "description": "src.func.usuario.excluirUsuario",
+        "peekOfCode": "def excluirUsuario():\n    chaveParaExcluir = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chaveParaExcluir)):\n            delete(chaveParaExcluir)\n            print(\"\\nUsuário deletado com sucesso!\")\n            input()\n        else:\n            raise Exception(\"Chave não encontrada!\")\n    except Exception as e:",
+        "detail": "src.func.usuario.excluirUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "excluirTodosUsuarios",
+        "kind": 2,
+        "importPath": "src.func.usuario.excluirUsuario",
+        "description": "src.func.usuario.excluirUsuario",
+        "peekOfCode": "def excluirTodosUsuarios():\n    chaves = key(\"usuario\")\n    for chave in chaves:\n        try:\n            delete(chave)\n            print(f\"Chave {chave} deletada com sucesso\")\n        except Exception as e:\n            print(f\"Ocorreu um erro ao deletar a chave {chave}\")\n    print(\"\\nTodos os usuários foram deletados com sucesso!\")\n    input()",
+        "detail": "src.func.usuario.excluirUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarUsuarios",
+        "kind": 2,
+        "importPath": "src.func.usuario.listarUsuarios",
+        "description": "src.func.usuario.listarUsuarios",
+        "peekOfCode": "def listarUsuarios(usuarios):\n    total = len(usuarios)\n    contador = 0\n    for elemento in usuarios:\n        contador += 1\n        usuario = jsonParaUsuario(elemento)\n        print(f\"- usuário ({contador}/{total}) -\")\n        if \"chave\" in elemento:\n            chave = elemento[\"chave\"].replace(\"usuario@\", \"\")\n            print(f\"_chave: {chave}\")",
+        "detail": "src.func.usuario.listarUsuarios",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "kind": 2,
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "peekOfCode": "def BuscarDados(tipo):\n    chaves = key(tipo)\n    listaDados = []\n    for chave in chaves:\n        dado = get(chave)\n        listaDados.append(dado)\n    return listaDados",
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "kind": 2,
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "peekOfCode": "def criarChave(colecao, chave = None):\n    if chave is None:\n        while True:\n            novaChave = input(\"Digite a chave: \")\n            if novaChave == \"\":\n                print(\"Chave inválida\")\n                continue\n            chave = novaChave\n            break\n    chave = colecao + \"@\" + chave.replace(\" \", \"_\").lower()",
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "kind": 2,
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "peekOfCode": "def verificarChaveExistente(colecao, chave):\n    listaDados = BuscarDados(colecao)\n    for dado in listaDados:\n        if \"chave\" in dado and dado[\"chave\"] == chave:\n            return True\n    return False",
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "kind": 2,
+        "importPath": "src.menu.menuCompra",
+        "description": "src.menu.menuCompra",
+        "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Consultar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "kind": 2,
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        # print(\"1 - CRUD Compras\")\n        # print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários\")\n        # print(\"4 - CRUD Vendedores\")\n        # print(\"5 - Sincronizar Dados\")",
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "menuProduto",
+        "kind": 2,
+        "importPath": "src.menu.menuProduto",
+        "description": "src.menu.menuProduto",
+        "peekOfCode": "def menuProduto():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Produtos\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Consultar Produtos\")\n        print(\"3 - Atualizar Produto\")\n        print(\"4 - Deletar Produto\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.menuProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuUsuario",
+        "kind": 2,
+        "importPath": "src.menu.menuUsuario",
+        "description": "src.menu.menuUsuario",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Consultar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "kind": 2,
+        "importPath": "src.menu.menuVendedor",
+        "description": "src.menu.menuVendedor",
+        "peekOfCode": "def menuVendedor():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Consultar Vendedores\")\n        print(\"3 - Atualizar Vendedor\")\n        print(\"4 - Deletar Vendedor\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.menuVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "peekOfCode": "class Usuario():\n    def __init__(self, nome:str, endereco:str, rg:str) -> None:\n        self.nome = nome\n        self.endereco = endereco\n        self.rg = rg\n    def atualizar(self, usuario):\n        if usuario.nome != \"\":\n            self.setNome(usuario.nome)\n        if usuario.endereco != \"\":\n            self.setEndereco(usuario.endereco)",
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "kind": 2,
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "peekOfCode": "def jsonParaUsuario(usuarioJson):\n    usuario = Usuario(usuarioJson[\"nome\"], usuarioJson[\"endereco\"], usuarioJson[\"rg\"])\n    return usuario",
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "limparTerminal",
+        "kind": 2,
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "peekOfCode": "def limparTerminal():\n    os.system(\"cls\")",
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "kind": 2,
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "peekOfCode": "def usuarioParaJson(usuario, chave = None):\n    if chave != None:\n        usuarioJson = {\n            \"nome\": usuario.nome,\n            \"endereco\": usuario.endereco,\n            \"rg\": usuario.rg,\n            \"chave\": chave\n        }\n    else:\n        usuarioJson = {",
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    }
+]
