@@ -579,11 +579,27 @@
         "documentation": {}
     },
     {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
         "label": "menuUsuario",
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
         "isExtraImport": true,
         "detail": "src.menu.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "importPath": "src.menu.menuVendedor",
+        "description": "src.menu.menuVendedor",
+        "isExtraImport": true,
+        "detail": "src.menu.menuVendedor",
         "documentation": {}
     },
     {
@@ -892,7 +908,7 @@
         "kind": 2,
         "importPath": "src.menu.menuPrincipal",
         "description": "src.menu.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        # print(\"1 - CRUD Compras\")\n        # print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários\")\n        # print(\"4 - CRUD Vendedores\")\n        # print(\"5 - Sincronizar Dados\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        # print(\"1 - CRUD Compras\")\n        # print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários\")\n        print(\"4 - CRUD Vendedores\")\n        print(\"0 - Sair\")",
         "detail": "src.menu.menuPrincipal",
         "documentation": {}
     },
@@ -903,6 +919,15 @@
         "description": "src.menu.menuUsuario",
         "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"5 - Mover Usuários do Redis para MongoDB\")",
         "detail": "src.menu.menuUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "menuVendedor",
+        "kind": 2,
+        "importPath": "src.menu.menuVendedor",
+        "description": "src.menu.menuVendedor",
+        "peekOfCode": "def menuVendedor():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Listar Vendedor\")\n        print(\"3 - Atualizar Vendedor\")\n        print(\"4 - Deletar Vendedor\")\n        print(\"5 - Mover Vendedores do Redis para MongoDB\")",
+        "detail": "src.menu.menuVendedor",
         "documentation": {}
     },
     {
