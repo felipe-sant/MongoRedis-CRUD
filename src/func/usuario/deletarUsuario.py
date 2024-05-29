@@ -28,5 +28,5 @@ def deletarUsuario():
                 raise
         except:
             pass
-    print("Usuário não encontrado")
+    print("\nUsuário não encontrado")
     input()

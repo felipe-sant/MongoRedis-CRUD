@@ -171,6 +171,30 @@
         "documentation": {}
     },
     {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
         "label": "Usuario",
         "importPath": "src.model.usuario",
         "description": "src.model.usuario",
@@ -200,6 +224,22 @@
         "description": "src.model.usuario",
         "isExtraImport": true,
         "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
         "documentation": {}
     },
     {
@@ -243,11 +283,11 @@
         "documentation": {}
     },
     {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
@@ -267,59 +307,27 @@
         "documentation": {}
     },
     {
-        "label": "adicionarUsuarioAoRedis",
-        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
-        "description": "src.func.usuario.adicionarUsuarioAoRedis",
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
         "isExtraImport": true,
-        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
+        "detail": "src.func.verificarChaveExistente",
         "documentation": {}
     },
     {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
+        "detail": "src.func.verificarChaveExistente",
         "documentation": {}
     },
     {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
-        "documentation": {}
-    },
-    {
-        "label": "delete",
-        "importPath": "src.data.redis.func.delete",
-        "description": "src.data.redis.func.delete",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.delete",
-        "documentation": {}
-    },
-    {
-        "label": "delete",
-        "importPath": "src.data.redis.func.delete",
-        "description": "src.data.redis.func.delete",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.delete",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
@@ -352,6 +360,142 @@
         "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
         "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoRedis",
+        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
+        "description": "src.func.usuario.adicionarUsuarioAoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoRedis",
+        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
+        "description": "src.func.usuario.adicionarUsuarioAoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoRedis",
+        "importPath": "src.func.usuario.atualizarUsuarioNoRedis",
+        "description": "src.func.usuario.atualizarUsuarioNoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.atualizarUsuarioNoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
         "documentation": {}
     },
     {
@@ -395,22 +539,6 @@
         "documentation": {}
     },
     {
-        "label": "jsonParaUsuario",
-        "importPath": "src.utils.jsonParaUsuario",
-        "description": "src.utils.jsonParaUsuario",
-        "isExtraImport": true,
-        "detail": "src.utils.jsonParaUsuario",
-        "documentation": {}
-    },
-    {
-        "label": "jsonParaUsuario",
-        "importPath": "src.utils.jsonParaUsuario",
-        "description": "src.utils.jsonParaUsuario",
-        "isExtraImport": true,
-        "detail": "src.utils.jsonParaUsuario",
-        "documentation": {}
-    },
-    {
         "label": "BuscarDados",
         "importPath": "src.func.buscarDados",
         "description": "src.func.buscarDados",
@@ -424,14 +552,6 @@
         "description": "src.func.buscarDados",
         "isExtraImport": true,
         "detail": "src.func.buscarDados",
-        "documentation": {}
-    },
-    {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
         "documentation": {}
     },
     {
@@ -480,6 +600,14 @@
         "description": "src.func.usuario.deletarUsuario",
         "isExtraImport": true,
         "detail": "src.func.usuario.deletarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuario",
+        "importPath": "src.func.usuario.atualizarUsuario",
+        "description": "src.func.usuario.atualizarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.atualizarUsuario",
         "documentation": {}
     },
     {
@@ -635,12 +763,39 @@
         "documentation": {}
     },
     {
+        "label": "atualizarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.atualizarUsuario",
+        "description": "src.func.usuario.atualizarUsuario",
+        "peekOfCode": "def atualizarUsuario():\n    id = input(\"Digite o id do usuário: \")\n    try:\n        chave = criarChave(\"usuario\", id)\n        if (verificarChaveExistente(\"usuario\", chave)):\n            usuario = jsonParaUsuario(get(chave))\n            usuarioNovo = criarUsuario(chave)\n            atualizarUsuarioNoRedis(chave, usuario, usuarioNovo)\n            print(\"\\nUsuário atualizado com sucesso!\")\n            input()",
+        "detail": "src.func.usuario.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoRedis",
+        "kind": 2,
+        "importPath": "src.func.usuario.atualizarUsuarioNoRedis",
+        "description": "src.func.usuario.atualizarUsuarioNoRedis",
+        "peekOfCode": "def atualizarUsuarioNoRedis(id, usuario: Usuario, usuarioNovo: Usuario):\n    usuario.atualizar(usuarioNovo)\n    usuarioJson = usuarioParaJson(usuario)\n    try:\n        set(id, usuarioJson)\n        return \"Usuário atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro: {e}\"",
+        "detail": "src.func.usuario.atualizarUsuarioNoRedis",
+        "documentation": {}
+    },
+    {
         "label": "cadastrarUsuario",
         "kind": 2,
         "importPath": "src.func.usuario.cadastrarUsuario",
         "description": "src.func.usuario.cadastrarUsuario",
-        "peekOfCode": "def cadastrarUsuario():\n    id = criarChave(\"usuario\")\n    if verificarChaveExistente(\"usuario\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(id, nome, endereco, rg)",
+        "peekOfCode": "def cadastrarUsuario():\n    id = criarChave(\"usuario\")\n    if verificarChaveExistente(\"usuario\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    usuario = criarUsuario(id)\n    adicionarUsuarioAoRedis(usuario)",
         "detail": "src.func.usuario.cadastrarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "peekOfCode": "def criarUsuario(id):\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(id, nome, endereco, rg)\n    return usuario",
+        "detail": "src.func.usuario.criarUsuario",
         "documentation": {}
     },
     {

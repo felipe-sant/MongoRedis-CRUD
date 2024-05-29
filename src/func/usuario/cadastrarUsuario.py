@@ -3,6 +3,7 @@ from src.func.criarChave import criarChave
 from src.func.verificarChaveExistente import verificarChaveExistente
 from src.func.usuario.adicionarUsuarioAoRedis import adicionarUsuarioAoRedis
 from src.func.usuario.adicionarUsuarioAoMongo import adicionarUsuarioAoMongo
+from src.func.usuario.criarUsuario import criarUsuario
 
 def cadastrarUsuario():
     id = criarChave("usuario")
@@ -10,9 +11,5 @@ def cadastrarUsuario():
         print("\nErro: chave já existente")
         input()
         return
-    nome = str(input("Digite o nome do usuário: "))
-    endereco = str(input("Digite o endereço do usuário: "))
-    rg = str(input("Digite o RG do usuário: "))
-    
-    usuario = Usuario(id, nome, endereco, rg)
+    usuario = criarUsuario(id)
     adicionarUsuarioAoRedis(usuario)

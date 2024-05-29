@@ -3,6 +3,7 @@ from src.func.usuario.cadastrarUsuario import cadastrarUsuario
 from src.func.usuario.listarUsuario import listarUsuario
 from src.func.usuario.deletarTodosUsuariosRedis import deletarTodosUsuariosRedis
 from src.func.usuario.deletarUsuario import deletarUsuario
+from src.func.usuario.atualizarUsuario import atualizarUsuario
 
 def menuUsuario():
     while True:
@@ -24,7 +25,7 @@ def menuUsuario():
             case "2":
                 listarUsuario()
             case "3":
-                print("atualizar usuario")
+                atualizarUsuario()
             case "4":
                 deletarUsuario()
             case "5":
