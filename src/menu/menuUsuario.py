@@ -4,6 +4,7 @@ from src.func.usuario.listarUsuario import listarUsuario
 from src.func.usuario.deletarTodosUsuariosRedis import deletarTodosUsuariosRedis
 from src.func.usuario.deletarUsuario import deletarUsuario
 from src.func.usuario.atualizarUsuario import atualizarUsuario
+from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
 
 def menuUsuario():
     while True:
@@ -14,6 +15,7 @@ def menuUsuario():
         print("2 - Listar Usuários")
         print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
+        print("5 - Mover Usuários do Redis para MongoDB")
         print("0 - Voltar")
         print("=-" * 30 + "\n")
         
@@ -29,7 +31,7 @@ def menuUsuario():
             case "4":
                 deletarUsuario()
             case "5":
-                deletarTodosUsuariosRedis()
+                moverUsuariosParaMongo()
             case "0":
                 break
             case _:

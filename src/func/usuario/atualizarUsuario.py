@@ -3,8 +3,6 @@ from src.func.verificarChaveExistente import verificarChaveExistente
 from bson.objectid import ObjectId
 from src.func.verificarIdExistente import verificarIdExistente
 from src.func.usuario.criarUsuario import criarUsuario
-from src.data.redis.func.set import set
-from src.func.usuario.adicionarUsuarioAoRedis import adicionarUsuarioAoRedis
 from src.func.usuario.atualizarUsuarioNoRedis import atualizarUsuarioNoRedis
 from src.data.redis.func.get import get
 from src.utils.jsonParaUsuario import jsonParaUsuario

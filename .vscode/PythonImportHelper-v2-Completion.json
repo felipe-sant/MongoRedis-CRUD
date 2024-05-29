@@ -243,14 +243,6 @@
         "documentation": {}
     },
     {
-        "label": "set",
-        "importPath": "src.data.redis.func.set",
-        "description": "src.data.redis.func.set",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.set",
-        "documentation": {}
-    },
-    {
         "label": "criarChave",
         "importPath": "src.func.criarChave",
         "description": "src.func.criarChave",
@@ -288,6 +280,14 @@
         "description": "src.func.criarChave",
         "isExtraImport": true,
         "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
         "documentation": {}
     },
     {
@@ -371,11 +371,11 @@
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.func.usuario.criarUsuario",
-        "description": "src.func.usuario.criarUsuario",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.func.usuario.criarUsuario",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
@@ -387,19 +387,11 @@
         "documentation": {}
     },
     {
-        "label": "adicionarUsuarioAoRedis",
-        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
-        "description": "src.func.usuario.adicionarUsuarioAoRedis",
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
         "isExtraImport": true,
-        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
-        "documentation": {}
-    },
-    {
-        "label": "adicionarUsuarioAoRedis",
-        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
-        "description": "src.func.usuario.adicionarUsuarioAoRedis",
-        "isExtraImport": true,
-        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
+        "detail": "src.func.usuario.criarUsuario",
         "documentation": {}
     },
     {
@@ -448,6 +440,14 @@
         "description": "src.utils.jsonParaUsuario",
         "isExtraImport": true,
         "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoRedis",
+        "importPath": "src.func.usuario.adicionarUsuarioAoRedis",
+        "description": "src.func.usuario.adicionarUsuarioAoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.adicionarUsuarioAoRedis",
         "documentation": {}
     },
     {
@@ -512,6 +512,14 @@
         "description": "src.func.usuario.pegarTodosUsuariosDoMongo",
         "isExtraImport": true,
         "detail": "src.func.usuario.pegarTodosUsuariosDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
         "documentation": {}
     },
     {
@@ -740,7 +748,7 @@
         "kind": 2,
         "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
         "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
-        "peekOfCode": "def moverUsuariosParaMongo():\n    usuariosRedis = pegarTodosUsuariosDoRedis()\n    for usuario in usuariosRedis:\n        adicionarUsuarioAoMongo(usuario)\n    deletarTodosUsuariosRedis()",
+        "peekOfCode": "def moverUsuariosParaMongo():\n    usuariosRedis = pegarTodosUsuariosDoRedis()\n    for usuario in usuariosRedis:\n        try:\n            adicionarUsuarioAoMongo(usuario)\n            print(f\"Usuário {usuario.nome} adicionado com sucesso\")\n        except:\n            print(f\"Erro ao adicionar usuário {usuario.nome}\")\n    deletarTodosUsuariosRedis()",
         "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
         "documentation": {}
     },
@@ -821,7 +829,7 @@
         "kind": 2,
         "importPath": "src.func.usuario.listarUsuario",
         "description": "src.func.usuario.listarUsuario",
-        "peekOfCode": "def listarUsuario():\n    id = input(\"Digite o id do usuário (deixe em branco para listar todos): \")\n    print()  \n    if (id == \"\"):\n        moverUsuariosParaMongo()\n        listaDeUsuarios = pegarTodosUsuariosDoMongo()\n        for i in range(len(listaDeUsuarios)):\n            print(f\"- ({i+1}/{len(listaDeUsuarios)}) -\")\n            listaDeUsuarios[i].mostrar()\n            input()",
+        "peekOfCode": "def listarUsuario():\n    id = input(\"Digite o id do usuário (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        moverUsuariosParaMongo()\n        listaDeUsuarios = pegarTodosUsuariosDoMongo()\n        for i in range(len(listaDeUsuarios)):\n            print()\n            print(f\"- ({i+1}/{len(listaDeUsuarios)}) -\")\n            listaDeUsuarios[i].mostrar()\n            input()",
         "detail": "src.func.usuario.listarUsuario",
         "documentation": {}
     },
@@ -893,7 +901,7 @@
         "kind": 2,
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
-        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"5 - Mover Usuários do Redis para MongoDB\")",
         "detail": "src.menu.menuUsuario",
         "documentation": {}
     },

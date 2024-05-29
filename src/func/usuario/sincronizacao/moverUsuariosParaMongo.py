@@ -5,5 +5,9 @@ from src.func.usuario.deletarTodosUsuariosRedis import deletarTodosUsuariosRedis
 def moverUsuariosParaMongo():
     usuariosRedis = pegarTodosUsuariosDoRedis()
     for usuario in usuariosRedis:
-        adicionarUsuarioAoMongo(usuario)
+        try:
+            adicionarUsuarioAoMongo(usuario)
+            print(f"Usuário {usuario.nome} adicionado com sucesso")
+        except:
+            print(f"Erro ao adicionar usuário {usuario.nome}")
     deletarTodosUsuariosRedis()
