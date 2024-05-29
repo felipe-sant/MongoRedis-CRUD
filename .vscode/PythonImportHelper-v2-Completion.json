@@ -227,6 +227,38 @@
         "documentation": {}
     },
     {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
         "label": "verificarChaveExistente",
         "importPath": "src.func.verificarChaveExistente",
         "description": "src.func.verificarChaveExistente",
@@ -267,6 +299,14 @@
         "documentation": {}
     },
     {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
         "label": "delete",
         "importPath": "src.data.redis.func.delete",
         "description": "src.data.redis.func.delete",
@@ -275,11 +315,51 @@
         "documentation": {}
     },
     {
-        "label": "pegarTodosUsuariosDoMongo",
-        "importPath": "src.func.usuario.pegarTodosUsuariosDoMongo",
-        "description": "src.func.usuario.pegarTodosUsuariosDoMongo",
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
         "isExtraImport": true,
-        "detail": "src.func.usuario.pegarTodosUsuariosDoMongo",
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
         "documentation": {}
     },
     {
@@ -296,22 +376,6 @@
         "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
         "isExtraImport": true,
         "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson.objectid",
-        "description": "bson.objectid",
-        "isExtraImport": true,
-        "detail": "bson.objectid",
-        "documentation": {}
-    },
-    {
-        "label": "ObjectId",
-        "importPath": "bson.objectid",
-        "description": "bson.objectid",
-        "isExtraImport": true,
-        "detail": "bson.objectid",
         "documentation": {}
     },
     {
@@ -408,6 +472,14 @@
         "description": "src.func.usuario.listarUsuario",
         "isExtraImport": true,
         "detail": "src.func.usuario.listarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "deletarUsuario",
+        "importPath": "src.func.usuario.deletarUsuario",
+        "description": "src.func.usuario.deletarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.deletarUsuario",
         "documentation": {}
     },
     {
@@ -567,7 +639,7 @@
         "kind": 2,
         "importPath": "src.func.usuario.cadastrarUsuario",
         "description": "src.func.usuario.cadastrarUsuario",
-        "peekOfCode": "def cadastrarUsuario():\n    id = criarChave(\"usuario\")\n    if verificarChaveExistente(\"usuario\", id):\n        print(\"Erro: chave já existente\")\n        return\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(id, nome, endereco, rg)\n    adicionarUsuarioAoRedis(usuario)",
+        "peekOfCode": "def cadastrarUsuario():\n    id = criarChave(\"usuario\")\n    if verificarChaveExistente(\"usuario\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(id, nome, endereco, rg)",
         "detail": "src.func.usuario.cadastrarUsuario",
         "documentation": {}
     },
@@ -578,6 +650,15 @@
         "description": "src.func.usuario.deletarTodosUsuariosRedis",
         "peekOfCode": "def deletarTodosUsuariosRedis():\n    chaves = key(\"usuario\")\n    for chave in chaves:\n        try:\n            delete(chave)\n        except:\n            print(f\"Ocorreu um erro ao deletar a chave {chave}\")",
         "detail": "src.func.usuario.deletarTodosUsuariosRedis",
+        "documentation": {}
+    },
+    {
+        "label": "deletarUsuario",
+        "kind": 2,
+        "importPath": "src.func.usuario.deletarUsuario",
+        "description": "src.func.usuario.deletarUsuario",
+        "peekOfCode": "def deletarUsuario():\n    id = input(\"Digite o id do usuário: \")\n    try:\n        chave = criarChave(\"usuario\", id)\n        if (verificarChaveExistente(\"usuario\", chave)):\n            delete(chave)\n            print(\"\\nUsuário deletado com sucesso!\")\n            input()\n            return\n        else:",
+        "detail": "src.func.usuario.deletarUsuario",
         "documentation": {}
     },
     {
@@ -630,7 +711,7 @@
         "kind": 2,
         "importPath": "src.func.verificarChaveExistente",
         "description": "src.func.verificarChaveExistente",
-        "peekOfCode": "def verificarChaveExistente(colecao, chave):\n    chaves = key(colecao)\n    if chave in chaves:\n        return True\n    return False",
+        "peekOfCode": "def verificarChaveExistente(colecao, chaveParaVerificar):\n    listaDeChaves = key(colecao)\n    for chave in listaDeChaves:\n        if chave.decode(\"utf-8\") == chaveParaVerificar:\n            return True\n    return False",
         "detail": "src.func.verificarChaveExistente",
         "documentation": {}
     },
@@ -698,11 +779,20 @@
         "documentation": {}
     },
     {
-        "label": "usuarios",
+        "label": "chave",
         "kind": 5,
         "importPath": "test",
         "description": "test",
-        "peekOfCode": "usuarios = pegarTodosUsuariosDoMongo()\nfor usuario in usuarios:\n    usuario.mostrar()",
+        "peekOfCode": "chave = criarChave(\"usuario\", \"pedro\")\nprint(verificarChaveExistente(\"usuario\", chave))\nchaves = key(\"usuario\")\nprint(chaves)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "chaves",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "chaves = key(\"usuario\")\nprint(chaves)",
         "detail": "test",
         "documentation": {}
     }

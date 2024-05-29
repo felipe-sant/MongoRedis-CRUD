@@ -7,7 +7,8 @@ from src.func.usuario.adicionarUsuarioAoMongo import adicionarUsuarioAoMongo
 def cadastrarUsuario():
     id = criarChave("usuario")
     if verificarChaveExistente("usuario", id):
-        print("Erro: chave já existente")
+        print("\nErro: chave já existente")
+        input()
         return
     nome = str(input("Digite o nome do usuário: "))
     endereco = str(input("Digite o endereço do usuário: "))

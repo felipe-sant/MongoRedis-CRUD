@@ -2,6 +2,7 @@ from src.utils.limparTerminal import limparTerminal
 from src.func.usuario.cadastrarUsuario import cadastrarUsuario
 from src.func.usuario.listarUsuario import listarUsuario
 from src.func.usuario.deletarTodosUsuariosRedis import deletarTodosUsuariosRedis
+from src.func.usuario.deletarUsuario import deletarUsuario
 
 def menuUsuario():
     while True:
@@ -25,7 +26,7 @@ def menuUsuario():
             case "3":
                 print("atualizar usuario")
             case "4":
-                print("deletar usuario")
+                deletarUsuario()
             case "5":
                 deletarTodosUsuariosRedis()
             case "0":
