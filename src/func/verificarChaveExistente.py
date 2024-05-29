@@ -1,8 +1,8 @@
 from src.func.buscarDados import BuscarDados
+from src.data.redis.func.keys import key
 
 def verificarChaveExistente(colecao, chave):
-    listaDados = BuscarDados(colecao)
-    for dado in listaDados:
-        if "chave" in dado and dado["chave"] == chave:
-            return True
+    chaves = key(colecao)
+    if chave in chaves:
+        return True
     return False

@@ -1,6 +1,6 @@
 from src.data.mongo.connection import database
 
-def buscar(colecao, filtro=None):
+def buscarMongo(colecao, filtro=None):
     try:
         dados = database[colecao].find(filtro)
         return dados

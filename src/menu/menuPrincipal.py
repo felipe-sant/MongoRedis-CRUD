@@ -1,8 +1,5 @@
 from src.utils.limparTerminal import limparTerminal
-from src.menu.menuCompra import menuCompra
-from src.menu.menuProduto import menuProduto
 from src.menu.menuUsuario import menuUsuario
-from src.menu.menuVendedor import menuVendedor
 
 def menuPrincipal():
     while True:
@@ -21,13 +18,13 @@ def menuPrincipal():
         
         match opcao:
             case "1":
-                menuCompra()
+                pass
             case "2":
-                menuProduto()
+                pass
             case "3":
                 menuUsuario()
             case "4":
-                menuVendedor()
+                pass
             case "5":
                 print("Sincronizar Dados")
                 input()
