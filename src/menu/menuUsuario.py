@@ -1,7 +1,6 @@
 from src.utils.limparTerminal import limparTerminal
 from src.func.usuario.cadastrarUsuario import cadastrarUsuario
 from src.func.usuario.listarUsuario import listarUsuario
-from src.func.usuario.deletarTodosUsuariosRedis import deletarTodosUsuariosRedis
 from src.func.usuario.deletarUsuario import deletarUsuario
 from src.func.usuario.atualizarUsuario import atualizarUsuario
 from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo

@@ -3,9 +3,11 @@ from src.func.verificarChaveExistente import verificarChaveExistente
 from bson.objectid import ObjectId
 from src.func.verificarIdExistente import verificarIdExistente
 from src.func.usuario.criarUsuario import criarUsuario
-from src.func.usuario.atualizarUsuarioNoRedis import atualizarUsuarioNoRedis
 from src.data.redis.func.get import get
 from src.utils.jsonParaUsuario import jsonParaUsuario
+from src.func.usuario.sincronizacao.atualizarUsuarioNoRedis import atualizarUsuarioNoRedis
+from src.data.mongo.func.buscar import buscarMongo
+from src.func.usuario.sincronizacao.atualizarUsuarioNoMongo import atualizarUsuarioNoMongo
 
 def atualizarUsuario():
     id = input("Digite o id do usuário: ")
@@ -24,7 +26,10 @@ def atualizarUsuario():
         try:
             id = ObjectId(id)
             if (verificarIdExistente("usuario", id)):
-                print("usuario existente no mongo")
+                usuario = jsonParaUsuario(buscarMongo("usuario", {"_id": id})[0])
+                usuarioNovo = criarUsuario(str(id))
+                atualizarUsuarioNoMongo(id, usuario, usuarioNovo)
+                ("\nUsuário atualizado com sucesso!")
                 input()
                 return
             else:

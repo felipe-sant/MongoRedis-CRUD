@@ -1,18 +1,19 @@
-from src.func.usuario.pegarTodosUsuariosDoMongo import pegarTodosUsuariosDoMongo
+
 from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
 from src.func.criarChave import criarChave
-from src.func.usuario.pegarTodosUsuariosDoRedis import pegarTodosUsuariosDoRedis
 from bson.objectid import ObjectId
 from src.func.verificarChaveExistente import verificarChaveExistente
 from src.func.verificarIdExistente import verificarIdExistente
+from src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo import pegarTodosUsuariosDoMongo
+from src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis import pegarTodosUsuariosDoRedis
 
 def listarUsuario():
     id = input("Digite o id do usuário (deixe em branco para listar todos): ")
     if (id == ""):
         moverUsuariosParaMongo()
         listaDeUsuarios = pegarTodosUsuariosDoMongo()
+        print()
         for i in range(len(listaDeUsuarios)):
-            print()
             print(f"- ({i+1}/{len(listaDeUsuarios)}) -")
             listaDeUsuarios[i].mostrar()
             input()

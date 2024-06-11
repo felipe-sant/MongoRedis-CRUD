@@ -1,4 +1,9 @@
 from src.utils.limparTerminal import limparTerminal
+from src.func.vendedor.cadastrarVendededor import cadastrarVendedor
+from src.func.vendedor.listarVendedor import listarVendedor
+from src.func.vendedor.atualizarVendedor import atualizarVendedor
+from src.func.vendedor.deletarVendedor import deletarVendedor
+from src.func.vendedor.sincronizacao.moverVendedoresParaMongo import moverVendedoresParaMongo
 
 def menuVendedor():
     while True:
@@ -17,13 +22,15 @@ def menuVendedor():
 
         match opcao:
             case "1":
-                print("cadastrar vendendor")
+                cadastrarVendedor()
             case "2":
-                print("listar vendedor")
+                listarVendedor()
             case "3":
-                print("atualizar vendedor")
+                atualizarVendedor()
             case "4":
-                print("deletar vendedor")
+                deletarVendedor()
+            case "5":
+                moverVendedoresParaMongo()
             case "0":
                 break
             case _:
