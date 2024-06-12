@@ -28,22 +28,15 @@ Integrar Redis e MongoDB para criar uma solução de banco de dados mais robusta
 Para executar este projeto, você precisará de:
 
 - Python 3.6 ou superior instalado em seu sistema.
-- Biblioteca redis instalada, que pode ser feita através do comando:
+- Bibliotecas mongo e redis instaladas, que pode ser feita através do comando:
 
-        pip install redis
-
-- Biblioteca mongo instalada, que pode ser feita através do comando:
-
-        pip install pymongo
-
-
-<!--
+        pip install redis & pip install pymongo
 
 ## ⚙️ Como Executar:
 
 1. Clone o Repositório:
 
-        https://github.com/felipe-sant/Redis-CRUD.git
+        https://github.com/felipe-sant/https://github.com/felipe-sant/MongoRedis-Crud.git
 
 2. Navegue até a pasta do projeto clonado e execute o script principal utilizando o Python:
 
