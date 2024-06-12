@@ -18,6 +18,10 @@ def inserirProduto(vendedor: Vendedor):
             input()
             return None
         else:
+            if produto["vendedor"] != "Não possui vendedor cadastrado":
+                print("Produto já possui vendedor")
+                input()
+                return None
             jsonProduto = {
                 "_id": str(produto["_id"]),
                 "nome": produto["nome"],

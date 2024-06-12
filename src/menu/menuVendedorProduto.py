@@ -4,6 +4,7 @@ from src.func.vendedor.produtos.inserirProduto import inserirProduto
 from src.func.vendedor.produtos.removerProduto import removerProduto
 from src.func.produto.listarProduto import listarProduto
 from src.func.vendedor.produtos.atualizarProdutos import atualizarProdutos
+from src.data.mongo.func.deletar import deletarTodosMongo
 
 def menuVendedorProduto(vendedor: Vendedor):
     while True:
@@ -34,7 +35,7 @@ def menuVendedorProduto(vendedor: Vendedor):
             case "4":
                 listarProduto()
             case "0":
-                return
+                break
             case _:
                 print("\nOpção inválida\n")
                 input()

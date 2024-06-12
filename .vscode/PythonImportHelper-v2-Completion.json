@@ -603,6 +603,30 @@
         "documentation": {}
     },
     {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
         "label": "buscarTodosProdutosDoMongo",
         "importPath": "src.func.produto.buscarTodosProdutosDoMongo",
         "description": "src.func.produto.buscarTodosProdutosDoMongo",

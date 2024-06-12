@@ -4,6 +4,7 @@ from src.func.vendedor.atualizarVendedor import atualizarVendedor
 from src.func.vendedor.deletarVendedor import deletarVendedor
 from src.func.vendedor.sincronizacao.moverVendedoresParaMongo import moverVendedoresParaMongo
 from src.func.vendedor.cadastrarVendedor import cadastrarVendedor
+from src.data.mongo.func.deletar import deletarTodosMongo
 
 def menuVendedor():
     while True:

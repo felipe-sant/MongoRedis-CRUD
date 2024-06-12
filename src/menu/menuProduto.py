@@ -3,6 +3,7 @@ from src.func.produto.cadastrarProduto import cadastrarProduto
 from src.func.produto.listarProduto import listarProduto
 from src.func.produto.atualizarProduto import atualizarProduto
 from src.func.produto.deletarProduto import deletarProduto
+from src.data.mongo.func.deletar import deletarTodosMongo
 
 def menuProduto():
     while True:
