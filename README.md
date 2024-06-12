@@ -36,7 +36,7 @@ Para executar este projeto, você precisará de:
 
 1. Clone o Repositório:
 
-        https://github.com/felipe-sant/https://github.com/felipe-sant/MongoRedis-Crud.git
+        git clone https://github.com/felipe-sant/MongoRedis-Crud.git
 
 2. Navegue até a pasta do projeto clonado e execute o script principal utilizando o Python:
 
