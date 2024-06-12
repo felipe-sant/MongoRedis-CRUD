@@ -1,14 +1,14 @@
 from src.model.vendedor import Vendedor
 from src.utils.vendedorParaJson import vendedorParaJson
 from src.data.mongo.func.atualizar import atualizarMongo
-from src.menu.menuVendedorProduto import menuVendedorProduto
+from src.menu.crudProdutos import crudProdutos
 
 def atualizarVendedorNoMongo(id, vendedor: Vendedor, vendedorNovo: Vendedor):
     vendedorNovo.id = ""
     vendedor.atualizar(vendedorNovo)
     opcao = str(input("Deseja adicionar produtos? (s/n) "))
     if opcao == "s":
-        menuVendedorProduto(vendedor)
+        crudProdutos(vendedor, True)
     vendedorJson = vendedorParaJson(vendedor, False)
     try:
         atualizarMongo("vendedor", vendedorJson, {"_id": id})

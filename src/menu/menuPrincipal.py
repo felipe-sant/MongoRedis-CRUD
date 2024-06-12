@@ -2,13 +2,14 @@ from src.utils.limparTerminal import limparTerminal
 from src.menu.menuUsuario import menuUsuario
 from src.menu.menuVendedor import menuVendedor
 from src.menu.menuProduto import menuProduto
+from src.menu.menuCompra import menuCompra
 
 def menuPrincipal():
     while True:
         limparTerminal()
         print("==" * 30)
         print("Menu Principal")
-        # print("1 - CRUD Compras")
+        print("1 - CRUD Compras")
         print("2 - CRUD Produtos")
         print("3 - CRUD Usuários (com redis)")
         print("4 - CRUD Vendedores (com redis)")
@@ -19,7 +20,7 @@ def menuPrincipal():
         
         match opcao:
             case "1":
-                pass
+                menuCompra()
             case "2":
                 menuProduto()
             case "3":

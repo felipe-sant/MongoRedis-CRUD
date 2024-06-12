@@ -8,7 +8,7 @@ from src.func.verificarIdExistente import verificarIdExistente
 from src.func.vendedor.sincronizacao.atualizarVendedorNoRedis import atualizarVendedorNoRedis
 from src.data.mongo.func.buscar import buscarMongo
 from src.func.vendedor.sincronizacao.atualizarVendedorNoMongo import atualizarVendedorNoMongo
-from src.menu.menuVendedorProduto import menuVendedorProduto
+from src.menu.crudProdutos import crudProdutos
 
 def atualizarVendedor():
     id = input("Digite o id do vendedor: ")

@@ -1,5 +1,5 @@
 from src.model.vendedor import Vendedor
-from src.menu.menuVendedorProduto import menuVendedorProduto
+from src.menu.crudProdutos import crudProdutos
 
 def criarVendedor(id):
     nome = str(input("Digite o nome do vendedor: "))

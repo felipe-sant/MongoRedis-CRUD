@@ -38,10 +38,10 @@ class Vendedor():
         
     def mostrar(self):
         print(f"id: {self.id}")
-        print(f"nome: {self.nome}")
-        print(f"rg: {self.rg}")
+        print(f"Nome: {self.nome}")
+        print(f"RG: {self.rg}")
         if len(self.produtos) > 0:
-            print("produtos:")
+            print("Produtos:")
             for produto in self.produtos:
                 print("\t-----------------")
                 print(f"\t_id: {produto['_id']}")

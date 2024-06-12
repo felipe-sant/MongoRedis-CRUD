@@ -203,6 +203,54 @@
         "documentation": {}
     },
     {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
         "label": "verificarIdExistente",
         "importPath": "src.func.verificarIdExistente",
         "description": "src.func.verificarIdExistente",
@@ -376,6 +424,326 @@
         "description": "src.data.mongo.func.buscar",
         "isExtraImport": true,
         "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "setarUsuario",
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "setarUsuario",
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "isExtraImport": true,
+        "detail": "src.model.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "isExtraImport": true,
+        "detail": "src.model.compra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodasComprasDoMongo",
+        "importPath": "src.func.compra.buscarTodasComprasDoMongo",
+        "description": "src.func.compra.buscarTodasComprasDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.compra.buscarTodasComprasDoMongo",
         "documentation": {}
     },
     {
@@ -491,62 +859,6 @@
         "documentation": {}
     },
     {
-        "label": "atualizarMongo",
-        "importPath": "src.data.mongo.func.atualizar",
-        "description": "src.data.mongo.func.atualizar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.atualizar",
-        "documentation": {}
-    },
-    {
-        "label": "atualizarMongo",
-        "importPath": "src.data.mongo.func.atualizar",
-        "description": "src.data.mongo.func.atualizar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.atualizar",
-        "documentation": {}
-    },
-    {
-        "label": "atualizarMongo",
-        "importPath": "src.data.mongo.func.atualizar",
-        "description": "src.data.mongo.func.atualizar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.atualizar",
-        "documentation": {}
-    },
-    {
-        "label": "atualizarMongo",
-        "importPath": "src.data.mongo.func.atualizar",
-        "description": "src.data.mongo.func.atualizar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.atualizar",
-        "documentation": {}
-    },
-    {
-        "label": "criarMongo",
-        "importPath": "src.data.mongo.func.criar",
-        "description": "src.data.mongo.func.criar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.criar",
-        "documentation": {}
-    },
-    {
-        "label": "criarMongo",
-        "importPath": "src.data.mongo.func.criar",
-        "description": "src.data.mongo.func.criar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.criar",
-        "documentation": {}
-    },
-    {
-        "label": "criarMongo",
-        "importPath": "src.data.mongo.func.criar",
-        "description": "src.data.mongo.func.criar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.criar",
-        "documentation": {}
-    },
-    {
         "label": "Produto",
         "importPath": "src.model.produto",
         "description": "src.model.produto",
@@ -568,62 +880,6 @@
         "description": "src.model.produto",
         "isExtraImport": true,
         "detail": "src.model.produto",
-        "documentation": {}
-    },
-    {
-        "label": "Produto",
-        "importPath": "src.model.produto",
-        "description": "src.model.produto",
-        "isExtraImport": true,
-        "detail": "src.model.produto",
-        "documentation": {}
-    },
-    {
-        "label": "deletarMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
-        "label": "deletarMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
-        "label": "deletarMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
-        "label": "deletarTodosMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
-        "label": "deletarTodosMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
-        "label": "deletarTodosMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
         "documentation": {}
     },
     {
@@ -1155,22 +1411,6 @@
         "documentation": {}
     },
     {
-        "label": "Vendedor",
-        "importPath": "src.model.vendedor",
-        "description": "src.model.vendedor",
-        "isExtraImport": true,
-        "detail": "src.model.vendedor",
-        "documentation": {}
-    },
-    {
-        "label": "Vendedor",
-        "importPath": "src.model.vendedor",
-        "description": "src.model.vendedor",
-        "isExtraImport": true,
-        "detail": "src.model.vendedor",
-        "documentation": {}
-    },
-    {
         "label": "vendedorParaJson",
         "importPath": "src.utils.vendedorParaJson",
         "description": "src.utils.vendedorParaJson",
@@ -1200,46 +1440,6 @@
         "description": "src.utils.vendedorParaJson",
         "isExtraImport": true,
         "detail": "src.utils.vendedorParaJson",
-        "documentation": {}
-    },
-    {
-        "label": "menuVendedorProduto",
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "isExtraImport": true,
-        "detail": "src.menu.menuVendedorProduto",
-        "documentation": {}
-    },
-    {
-        "label": "menuVendedorProduto",
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "isExtraImport": true,
-        "detail": "src.menu.menuVendedorProduto",
-        "documentation": {}
-    },
-    {
-        "label": "menuVendedorProduto",
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "isExtraImport": true,
-        "detail": "src.menu.menuVendedorProduto",
-        "documentation": {}
-    },
-    {
-        "label": "menuVendedorProduto",
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "isExtraImport": true,
-        "detail": "src.menu.menuVendedorProduto",
-        "documentation": {}
-    },
-    {
-        "label": "menuVendedorProduto",
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "isExtraImport": true,
-        "detail": "src.menu.menuVendedorProduto",
         "documentation": {}
     },
     {
@@ -1292,18 +1492,10 @@
     },
     {
         "label": "atualizarProdutos",
-        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
-        "description": "src.func.vendedor.produtos.atualizarProdutos",
+        "importPath": "src.func.atualizarProdutos",
+        "description": "src.func.atualizarProdutos",
         "isExtraImport": true,
-        "detail": "src.func.vendedor.produtos.atualizarProdutos",
-        "documentation": {}
-    },
-    {
-        "label": "atualizarProdutos",
-        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
-        "description": "src.func.vendedor.produtos.atualizarProdutos",
-        "isExtraImport": true,
-        "detail": "src.func.vendedor.produtos.atualizarProdutos",
+        "detail": "src.func.atualizarProdutos",
         "documentation": {}
     },
     {
@@ -1427,6 +1619,78 @@
         "documentation": {}
     },
     {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.func.produto.listarProduto",
+        "description": "src.func.produto.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.func.produto.listarProduto",
+        "description": "src.func.produto.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "inserirProduto",
+        "importPath": "src.func.inserirProduto",
+        "description": "src.func.inserirProduto",
+        "isExtraImport": true,
+        "detail": "src.func.inserirProduto",
+        "documentation": {}
+    },
+    {
+        "label": "removerProduto",
+        "importPath": "src.func.removerProduto",
+        "description": "src.func.removerProduto",
+        "isExtraImport": true,
+        "detail": "src.func.removerProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "importPath": "src.func.compra.cadastrarCompra",
+        "description": "src.func.compra.cadastrarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "importPath": "src.func.compra.listarCompra",
+        "description": "src.func.compra.listarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.listarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "importPath": "src.func.compra.deletarCompra",
+        "description": "src.func.compra.deletarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "importPath": "src.func.compra.atualizarCompra",
+        "description": "src.func.compra.atualizarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.atualizarCompra",
+        "documentation": {}
+    },
+    {
         "label": "menuUsuario",
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
@@ -1451,27 +1715,19 @@
         "documentation": {}
     },
     {
+        "label": "menuCompra",
+        "importPath": "src.menu.menuCompra",
+        "description": "src.menu.menuCompra",
+        "isExtraImport": true,
+        "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
         "label": "cadastrarProduto",
         "importPath": "src.func.produto.cadastrarProduto",
         "description": "src.func.produto.cadastrarProduto",
         "isExtraImport": true,
         "detail": "src.func.produto.cadastrarProduto",
-        "documentation": {}
-    },
-    {
-        "label": "listarProduto",
-        "importPath": "src.func.produto.listarProduto",
-        "description": "src.func.produto.listarProduto",
-        "isExtraImport": true,
-        "detail": "src.func.produto.listarProduto",
-        "documentation": {}
-    },
-    {
-        "label": "listarProduto",
-        "importPath": "src.func.produto.listarProduto",
-        "description": "src.func.produto.listarProduto",
-        "isExtraImport": true,
-        "detail": "src.func.produto.listarProduto",
         "documentation": {}
     },
     {
@@ -1555,19 +1811,11 @@
         "documentation": {}
     },
     {
-        "label": "inserirProduto",
-        "importPath": "src.func.vendedor.produtos.inserirProduto",
-        "description": "src.func.vendedor.produtos.inserirProduto",
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "src.func.vendedor.produtos.inserirProduto",
-        "documentation": {}
-    },
-    {
-        "label": "removerProduto",
-        "importPath": "src.func.vendedor.produtos.removerProduto",
-        "description": "src.func.vendedor.produtos.removerProduto",
-        "isExtraImport": true,
-        "detail": "src.func.vendedor.produtos.removerProduto",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -1693,6 +1941,69 @@
         "description": "src.data.redis.connection",
         "peekOfCode": "connection = redis.Redis(\n  host='redis-15624.c241.us-east-1-4.ec2.redns.redis-cloud.com',\n  port=15624,\n  password='iMkKmyB9atTi8PyBAWA2l0JWiFLyKnAV')",
         "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
+        "label": "setarUsuario",
+        "kind": 2,
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "peekOfCode": "def setarUsuario(compra):\n    id = str(input(\"Digite o id do usuário: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if verificarIdExistente(\"usuario\", objectId):\n        usuario = buscarMongo(\"usuario\", {\"_id\": objectId})[0]",
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.atualizarCompra",
+        "description": "src.func.compra.atualizarCompra",
+        "peekOfCode": "def atualizarCompra():\n    id = input(\"Digite o id da compra: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"compra\", objectId):\n        print(\"\\nCompra não encontrada\")",
+        "detail": "src.func.compra.atualizarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodasComprasDoMongo",
+        "kind": 2,
+        "importPath": "src.func.compra.buscarTodasComprasDoMongo",
+        "description": "src.func.compra.buscarTodasComprasDoMongo",
+        "peekOfCode": "def buscarTodasComprasDoMongo():\n    dados = buscarMongo(\"compra\")\n    listaDeCompras = []\n    for compra in dados:\n        listaDeCompras.append(jsonParaCompra(compra))\n    return listaDeCompras",
+        "detail": "src.func.compra.buscarTodasComprasDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.cadastrarCompra",
+        "description": "src.func.compra.cadastrarCompra",
+        "peekOfCode": "def cadastrarCompra():\n    compra = criarCompra()\n    setarUsuario(compra)\n    crudProdutos(compra)\n    compraJson = compraParaJson(compra)\n    criarMongo(\"compra\", compraJson)",
+        "detail": "src.func.compra.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "peekOfCode": "def criarCompra():\n    data_compra = str(input(\"Digite a data da compra (dd/mm/yyyy): \"))\n    compra = Compra(data_compra) \n    return compra",
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.deletarCompra",
+        "description": "src.func.compra.deletarCompra",
+        "peekOfCode": "def deletarCompra():\n    id = input(\"Digite o id da compra: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"compra\", objectId):\n        print(\"\\nCompra não encontrada\")",
+        "detail": "src.func.compra.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.listarCompra",
+        "description": "src.func.compra.listarCompra",
+        "peekOfCode": "def listarCompra():\n    id = input(\"Digite o id da compra (deixe em branco para listar todas): \")\n    if id == \"\":\n        listaDeCompras = buscarTodasComprasDoMongo()\n        print()\n        for i in range(len(listaDeCompras)):\n            print(f\"- ({i+1}/{len(listaDeCompras)}) -\")\n            listaDeCompras[i].mostrar()\n            input()\n        return",
+        "detail": "src.func.compra.listarCompra",
         "documentation": {}
     },
     {
@@ -1867,33 +2178,6 @@
         "documentation": {}
     },
     {
-        "label": "atualizarProdutos",
-        "kind": 2,
-        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
-        "description": "src.func.vendedor.produtos.atualizarProdutos",
-        "peekOfCode": "def atualizarProdutos(vendedor: Vendedor):\n    for produto in vendedor.produtos:\n        objectId = ObjectId(produto[\"_id\"])\n        produtoMongoJson = buscarMongo(\"produto\", {\"_id\": objectId})[0]\n        produtoMongo = JsonParaProduto(produtoMongoJson)\n        produtoMongo.setVendedor(vendedor)\n        produtoMongoJson = produtoParaJson(produtoMongo)\n        try:\n            atualizarMongo(\"produto\", produtoMongoJson, {\"_id\": objectId})\n        except:",
-        "detail": "src.func.vendedor.produtos.atualizarProdutos",
-        "documentation": {}
-    },
-    {
-        "label": "inserirProduto",
-        "kind": 2,
-        "importPath": "src.func.vendedor.produtos.inserirProduto",
-        "description": "src.func.vendedor.produtos.inserirProduto",
-        "peekOfCode": "def inserirProduto(vendedor: Vendedor):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if (verificarIdExistente(\"vendedor\", objectId)):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
-        "detail": "src.func.vendedor.produtos.inserirProduto",
-        "documentation": {}
-    },
-    {
-        "label": "removerProduto",
-        "kind": 2,
-        "importPath": "src.func.vendedor.produtos.removerProduto",
-        "description": "src.func.vendedor.produtos.removerProduto",
-        "peekOfCode": "def removerProduto(vendedor: Vendedor):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if (verificarIdExistente(\"vendedor\", objectId)):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
-        "detail": "src.func.vendedor.produtos.removerProduto",
-        "documentation": {}
-    },
-    {
         "label": "adicionarVendedorAoMongo",
         "kind": 2,
         "importPath": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
@@ -1916,7 +2200,7 @@
         "kind": 2,
         "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
         "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
-        "peekOfCode": "def atualizarVendedorNoMongo(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedorNovo.id = \"\"\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        menuVendedorProduto(vendedor)\n    vendedorJson = vendedorParaJson(vendedor, False)\n    try:\n        atualizarMongo(\"vendedor\", vendedorJson, {\"_id\": id})\n        return \"Vendedor atualizado com sucesso!\"",
+        "peekOfCode": "def atualizarVendedorNoMongo(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedorNovo.id = \"\"\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)\n    vendedorJson = vendedorParaJson(vendedor, False)\n    try:\n        atualizarMongo(\"vendedor\", vendedorJson, {\"_id\": id})\n        return \"Vendedor atualizado com sucesso!\"",
         "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
         "documentation": {}
     },
@@ -1925,7 +2209,7 @@
         "kind": 2,
         "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
         "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
-        "peekOfCode": "def atualizarVendedorNoRedis(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        menuVendedorProduto(vendedor)\n    vendedorJson = vendedorParaJson(vendedor)\n    try:\n        set(id, vendedorJson)\n        return \"Vendedor atualizado com sucesso!\"\n    except Exception as e:",
+        "peekOfCode": "def atualizarVendedorNoRedis(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)\n    vendedorJson = vendedorParaJson(vendedor)\n    try:\n        set(id, vendedorJson)\n        return \"Vendedor atualizado com sucesso!\"\n    except Exception as e:",
         "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
         "documentation": {}
     },
@@ -1979,7 +2263,7 @@
         "kind": 2,
         "importPath": "src.func.vendedor.cadastrarVendedor",
         "description": "src.func.vendedor.cadastrarVendedor",
-        "peekOfCode": "def cadastrarVendedor():\n    id = criarChave(\"vendedor\")\n    if verificarChaveExistente(\"vendedor\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    vendedor = criarVendedor(id)\n    opcao = str(input(\"Deseja adicionar alguns produtos? (s/n) \"))\n    if opcao == \"s\":\n        menuVendedorProduto(vendedor)",
+        "peekOfCode": "def cadastrarVendedor():\n    id = criarChave(\"vendedor\")\n    if verificarChaveExistente(\"vendedor\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    vendedor = criarVendedor(id)\n    opcao = str(input(\"Deseja adicionar alguns produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)",
         "detail": "src.func.vendedor.cadastrarVendedor",
         "documentation": {}
     },
@@ -2011,6 +2295,15 @@
         "documentation": {}
     },
     {
+        "label": "atualizarProdutos",
+        "kind": 2,
+        "importPath": "src.func.atualizarProdutos",
+        "description": "src.func.atualizarProdutos",
+        "peekOfCode": "def atualizarProdutos(colecao):\n    for produto in colecao.produtos:\n        objectId = ObjectId(produto[\"_id\"])\n        produtoMongoJson = buscarMongo(\"produto\", {\"_id\": objectId})[0]\n        produtoMongo = JsonParaProduto(produtoMongoJson)\n        produtoMongo.setVendedor(colecao)\n        produtoMongoJson = produtoParaJson(produtoMongo)\n        try:\n            atualizarMongo(\"produto\", produtoMongoJson, {\"_id\": objectId})\n        except:",
+        "detail": "src.func.atualizarProdutos",
+        "documentation": {}
+    },
+    {
         "label": "BuscarDados",
         "kind": 2,
         "importPath": "src.func.buscarDados",
@@ -2029,6 +2322,24 @@
         "documentation": {}
     },
     {
+        "label": "inserirProduto",
+        "kind": 2,
+        "importPath": "src.func.inserirProduto",
+        "description": "src.func.inserirProduto",
+        "peekOfCode": "def inserirProduto(vendedor: Vendedor, isVendedor = False):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if verificarIdExistente(\"produto\", objectId):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
+        "detail": "src.func.inserirProduto",
+        "documentation": {}
+    },
+    {
+        "label": "removerProduto",
+        "kind": 2,
+        "importPath": "src.func.removerProduto",
+        "description": "src.func.removerProduto",
+        "peekOfCode": "def removerProduto(vendedor: Vendedor):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if (verificarIdExistente(\"vendedor\", objectId)):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
+        "detail": "src.func.removerProduto",
+        "documentation": {}
+    },
+    {
         "label": "verificarChaveExistente",
         "kind": 2,
         "importPath": "src.func.verificarChaveExistente",
@@ -2042,8 +2353,26 @@
         "kind": 2,
         "importPath": "src.func.verificarIdExistente",
         "description": "src.func.verificarIdExistente",
-        "peekOfCode": "def verificarIdExistente(colecao, id):\n    dado = buscarMongo(colecao, {\"_id\": ObjectId(id)})\n    if dado is None:\n        return False\n    return True",
+        "peekOfCode": "def verificarIdExistente(colecao, id):\n    dado = buscarMongo(colecao, {\"_id\": id})\n    if dado is None:\n        return False\n    return True",
         "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "kind": 2,
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "peekOfCode": "def crudProdutos(colecao, isVendedor = False):\n    while True:\n        limparTerminal()\n        print(\"--\" * 30)\n        print(\"Inserção de produtos\")\n        print(\"1 - Inserir Produto\")\n        print(\"2 - Remover Produto\")\n        print(\"3 - Listar Produtos\")\n        print(\"4 - Listar Todos Produtos registrados\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "kind": 2,
+        "importPath": "src.menu.menuCompra",
+        "description": "src.menu.menuCompra",
+        "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.menuCompra",
         "documentation": {}
     },
     {
@@ -2051,7 +2380,7 @@
         "kind": 2,
         "importPath": "src.menu.menuPrincipal",
         "description": "src.menu.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        # print(\"1 - CRUD Compras\")\n        print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários (com redis)\")\n        print(\"4 - CRUD Vendedores (com redis)\")\n        print(\"0 - Sair\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        print(\"1 - CRUD Compras\")\n        print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários (com redis)\")\n        print(\"4 - CRUD Vendedores (com redis)\")\n        print(\"0 - Sair\")",
         "detail": "src.menu.menuPrincipal",
         "documentation": {}
     },
@@ -2083,12 +2412,12 @@
         "documentation": {}
     },
     {
-        "label": "menuVendedorProduto",
-        "kind": 2,
-        "importPath": "src.menu.menuVendedorProduto",
-        "description": "src.menu.menuVendedorProduto",
-        "peekOfCode": "def menuVendedorProduto(vendedor: Vendedor):\n    while True:\n        limparTerminal()\n        print(\"--\" * 30)\n        print(\"Inserção de produtos\")\n        print(\"1 - Inserir Produto\")\n        print(\"2 - Remover Produto\")\n        print(\"3 - Listar Produtos do vendedor\")\n        print(\"4 - Listar Todos Produtos\")\n        print(\"0 - Voltar\")",
-        "detail": "src.menu.menuVendedorProduto",
+        "label": "Compra",
+        "kind": 6,
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "peekOfCode": "class Compra:\n    def calcularValorTotal(self):\n        valor = 0\n        for produto in self.produtos:\n            valor += int(produto[\"preco\"])\n        self.valorTotal = valor\n    def __init__ (self, data_compra, usuario = None, produtos = None, id = None) -> None:\n        if id == None:\n            self.id = None\n        else:",
+        "detail": "src.model.compra",
         "documentation": {}
     },
     {
@@ -2119,11 +2448,38 @@
         "documentation": {}
     },
     {
+        "label": "pegarUsuario",
+        "kind": 2,
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "peekOfCode": "def pegarUsuario(usuario):\n    if usuario is None:\n        return \"Não possui usuário cadastrado\"\n    else:\n        usuarioJson = {\n            \"_id\": usuario[\"_id\"],\n            \"nome\": usuario[\"nome\"],\n            \"endereco\": usuario[\"endereco\"],\n        }\n        return usuarioJson",
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "kind": 2,
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "peekOfCode": "def compraParaJson(compra):\n    compraJson = {\n        \"usuario\": pegarUsuario(compra.usuario),\n        \"produtos\": compra.produtos,\n        \"data_compra\": compra.data_compra,\n        \"valorTotal\": compra.valorTotal\n    }\n    return compraJson",
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "kind": 2,
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "peekOfCode": "def jsonParaCompra(compraJson):\n    compra = Compra(\n        compraJson[\"data_compra\"],\n        compraJson[\"usuario\"],\n        compraJson[\"produtos\"],\n        compraJson[\"_id\"]\n    )\n    return compra",
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
         "label": "JsonParaProduto",
         "kind": 2,
         "importPath": "src.utils.jsonParaProduto",
         "description": "src.utils.jsonParaProduto",
-        "peekOfCode": "def JsonParaProduto(produtoJson):\n    produto = Produto(produtoJson[\"nome\"], produtoJson[\"descricao\"], produtoJson[\"preco\"], produtoJson[\"estoque\"], produtoJson[\"vendedor\"], produtoJson[\"_id\"])\n    return produto",
+        "peekOfCode": "def JsonParaProduto(produtoJson):\n    produto = Produto(\n        produtoJson[\"nome\"], \n        produtoJson[\"descricao\"], \n        produtoJson[\"preco\"], \n        produtoJson[\"estoque\"], \n        produtoJson[\"vendedor\"], \n        produtoJson[\"_id\"]\n    )\n    return produto",
         "detail": "src.utils.jsonParaProduto",
         "documentation": {}
     },
@@ -2132,7 +2488,7 @@
         "kind": 2,
         "importPath": "src.utils.jsonParaUsuario",
         "description": "src.utils.jsonParaUsuario",
-        "peekOfCode": "def jsonParaUsuario(usuarioJson):\n    usuario = Usuario(usuarioJson[\"_id\"], usuarioJson[\"nome\"], usuarioJson[\"endereco\"], usuarioJson[\"rg\"])\n    return usuario",
+        "peekOfCode": "def jsonParaUsuario(usuarioJson):\n    usuario = Usuario(\n        usuarioJson[\"_id\"], \n        usuarioJson[\"nome\"], \n        usuarioJson[\"endereco\"], \n        usuarioJson[\"rg\"]\n    )\n    return usuario",
         "detail": "src.utils.jsonParaUsuario",
         "documentation": {}
     },
@@ -2141,7 +2497,7 @@
         "kind": 2,
         "importPath": "src.utils.jsonParaVendedor",
         "description": "src.utils.jsonParaVendedor",
-        "peekOfCode": "def jsonParaVendedor(vendedorJson):\n    vendedor = Vendedor(vendedorJson[\"_id\"], vendedorJson[\"nome\"], vendedorJson[\"rg\"], vendedorJson[\"produtos\"])\n    return vendedor",
+        "peekOfCode": "def jsonParaVendedor(vendedorJson):\n    vendedor = Vendedor(\n        vendedorJson[\"_id\"],\n        vendedorJson[\"nome\"],\n        vendedorJson[\"rg\"],\n        vendedorJson[\"produtos\"]\n    )\n    return vendedor",
         "detail": "src.utils.jsonParaVendedor",
         "documentation": {}
     },
@@ -2188,33 +2544,6 @@
         "description": "src.utils.vendedorParaJson",
         "peekOfCode": "def vendedorParaJson(vendedor, hasId = True):\n    if hasId:\n        vendedorParaJson = {\n            \"_id\": vendedor.id,\n            \"nome\": vendedor.nome,\n            \"rg\": vendedor.rg,\n            \"produtos\": vendedor.produtos\n        }\n        input()\n        return json.dumps(vendedorParaJson)",
         "detail": "src.utils.vendedorParaJson",
-        "documentation": {}
-    },
-    {
-        "label": "produto1",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "produto1 = Produto(1, \"produto1\", None, \"descricao1\", 100, 10)\nproduto2 = Produto(2, \"produto2\", None, \"descricao2\", 200, 20)\nvendedor1 = Vendedor(1, \"vendedor1\", \"rg1\")\nvendedor1.adicionarProduto(produto1)\nvendedor1.adicionarProduto(produto2)\nvendedor1.mostrar()\nvendedor1.removerProduto(produto1)\nprint()\nvendedor1.mostrar()",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "produto2",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "produto2 = Produto(2, \"produto2\", None, \"descricao2\", 200, 20)\nvendedor1 = Vendedor(1, \"vendedor1\", \"rg1\")\nvendedor1.adicionarProduto(produto1)\nvendedor1.adicionarProduto(produto2)\nvendedor1.mostrar()\nvendedor1.removerProduto(produto1)\nprint()\nvendedor1.mostrar()",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "vendedor1",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "vendedor1 = Vendedor(1, \"vendedor1\", \"rg1\")\nvendedor1.adicionarProduto(produto1)\nvendedor1.adicionarProduto(produto2)\nvendedor1.mostrar()\nvendedor1.removerProduto(produto1)\nprint()\nvendedor1.mostrar()",
-        "detail": "test",
         "documentation": {}
     }
 ]

@@ -3,7 +3,7 @@ from src.model.vendedor import Vendedor
 from src.func.verificarIdExistente import verificarIdExistente
 from src.data.mongo.func.buscar import buscarMongo
 
-def inserirProduto(vendedor: Vendedor):
+def inserirProduto(vendedor: Vendedor, isVendedor = False):
     id = str(input("Digite o id do produto: "))
     try:
         objectId = ObjectId(id)
@@ -11,14 +11,14 @@ def inserirProduto(vendedor: Vendedor):
         print("Id inválido")
         input()
         return None
-    if (verificarIdExistente("vendedor", objectId)):
+    if verificarIdExistente("produto", objectId):
         produto = buscarMongo("produto", {"_id": objectId})[0]
         if produto is None:
             print("Produto não encontrado")
             input()
             return None
         else:
-            if produto["vendedor"] != "Não possui vendedor cadastrado":
+            if produto["vendedor"] != "Não possui vendedor cadastrado" and isVendedor:
                 print("Produto já possui vendedor")
                 input()
                 return None
@@ -30,3 +30,7 @@ def inserirProduto(vendedor: Vendedor):
             }
             vendedor.addProduto(jsonProduto)
             return "Produto inserido com sucesso"
+    else:
+        print("Produto não encontrado")
+        input()
+        return None

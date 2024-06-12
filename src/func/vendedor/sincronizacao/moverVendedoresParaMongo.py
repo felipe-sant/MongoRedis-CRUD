@@ -2,7 +2,7 @@ from src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis import pegarTod
 from src.func.vendedor.sincronizacao.adicionarVendedorAoMongo import adicionarVendedorAoMongo
 from src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis import deletarTodosVendedoresRedis
 from src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo import pegarTodosVendedoresDoMongo
-from src.func.vendedor.produtos.atualizarProdutos import atualizarProdutos
+from src.func.atualizarProdutos import atualizarProdutos
 
 def moverVendedoresParaMongo():
     vendedorRedis = pegarTodosVendedoresDoRedis()
