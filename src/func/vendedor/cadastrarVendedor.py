@@ -13,5 +13,5 @@ def cadastrarVendedor():
     vendedor = criarVendedor(id)
     opcao = str(input("Deseja adicionar alguns produtos? (s/n) "))
     if opcao == "s":
-        vendedor = menuVendedorProduto(vendedor)
+        menuVendedorProduto(vendedor)
     adicionarVendedorAoRedis(vendedor)

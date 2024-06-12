@@ -195,6 +195,14 @@
         "documentation": {}
     },
     {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
         "label": "verificarIdExistente",
         "importPath": "src.func.verificarIdExistente",
         "description": "src.func.verificarIdExistente",
@@ -360,6 +368,22 @@
         "description": "src.data.mongo.func.buscar",
         "isExtraImport": true,
         "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaProduto",
         "documentation": {}
     },
     {
@@ -456,6 +480,22 @@
         "description": "src.utils.produtoParaJson",
         "isExtraImport": true,
         "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "produtoParaJson",
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
         "documentation": {}
     },
     {
@@ -1099,6 +1139,14 @@
         "documentation": {}
     },
     {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
         "label": "vendedorParaJson",
         "importPath": "src.utils.vendedorParaJson",
         "description": "src.utils.vendedorParaJson",
@@ -1203,6 +1251,38 @@
         "documentation": {}
     },
     {
+        "label": "pegarTodosVendedoresDoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProdutos",
+        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
+        "description": "src.func.vendedor.produtos.atualizarProdutos",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.produtos.atualizarProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProdutos",
+        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
+        "description": "src.func.vendedor.produtos.atualizarProdutos",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.produtos.atualizarProdutos",
+        "documentation": {}
+    },
+    {
         "label": "jsonParaVendedor",
         "importPath": "src.utils.jsonParaVendedor",
         "description": "src.utils.jsonParaVendedor",
@@ -1264,14 +1344,6 @@
         "description": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
         "isExtraImport": true,
         "detail": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
-        "documentation": {}
-    },
-    {
-        "label": "pegarTodosVendedoresDoMongo",
-        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
-        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
-        "isExtraImport": true,
-        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
         "documentation": {}
     },
     {
@@ -1771,6 +1843,15 @@
         "documentation": {}
     },
     {
+        "label": "atualizarProdutos",
+        "kind": 2,
+        "importPath": "src.func.vendedor.produtos.atualizarProdutos",
+        "description": "src.func.vendedor.produtos.atualizarProdutos",
+        "peekOfCode": "def atualizarProdutos(vendedor: Vendedor):\n    for produto in vendedor.produtos:\n        objectId = ObjectId(produto[\"_id\"])\n        produtoMongoJson = buscarMongo(\"produto\", {\"_id\": objectId})[0]\n        produtoMongo = JsonParaProduto(produtoMongoJson)\n        produtoMongo.setVendedor(vendedor)\n        produtoMongoJson = produtoParaJson(produtoMongo)\n        try:\n            atualizarMongo(\"produto\", produtoMongoJson, {\"_id\": objectId})\n        except:",
+        "detail": "src.func.vendedor.produtos.atualizarProdutos",
+        "documentation": {}
+    },
+    {
         "label": "inserirProduto",
         "kind": 2,
         "importPath": "src.func.vendedor.produtos.inserirProduto",
@@ -1838,7 +1919,7 @@
         "kind": 2,
         "importPath": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
         "description": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
-        "peekOfCode": "def moverVendedoresParaMongo():\n    vendedorRedis = pegarTodosVendedoresDoRedis()\n    for vendedor in vendedorRedis:\n        try:\n            adicionarVendedorAoMongo(vendedor)\n            print(f\"Vendedor {vendedor.nome} adicionado com sucesso\")\n        except:\n            print(f\"Erro ao adicionar vendedor {vendedor.nome}\")\n    deletarTodosVendedoresRedis()",
+        "peekOfCode": "def moverVendedoresParaMongo():\n    vendedorRedis = pegarTodosVendedoresDoRedis()\n    for vendedor in vendedorRedis:\n        try:\n            adicionarVendedorAoMongo(vendedor)\n            print(f\"Vendedor {vendedor.nome} adicionado com sucesso\")\n        except:\n            print(f\"Erro ao adicionar vendedor {vendedor.nome}\")\n    vendedorMongo = pegarTodosVendedoresDoMongo()\n    for vendedor in vendedorMongo:",
         "detail": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
         "documentation": {}
     },
@@ -1874,7 +1955,7 @@
         "kind": 2,
         "importPath": "src.func.vendedor.cadastrarVendedor",
         "description": "src.func.vendedor.cadastrarVendedor",
-        "peekOfCode": "def cadastrarVendedor():\n    id = criarChave(\"vendedor\")\n    if verificarChaveExistente(\"vendedor\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    vendedor = criarVendedor(id)\n    opcao = str(input(\"Deseja adicionar alguns produtos? (s/n) \"))\n    if opcao == \"s\":\n        vendedor = menuVendedorProduto(vendedor)",
+        "peekOfCode": "def cadastrarVendedor():\n    id = criarChave(\"vendedor\")\n    if verificarChaveExistente(\"vendedor\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    vendedor = criarVendedor(id)\n    opcao = str(input(\"Deseja adicionar alguns produtos? (s/n) \"))\n    if opcao == \"s\":\n        menuVendedorProduto(vendedor)",
         "detail": "src.func.vendedor.cadastrarVendedor",
         "documentation": {}
     },
