@@ -1,32 +1,42 @@
 from src.utils.limparTerminal import limparTerminal
+from src.func.vendedor.listarVendedor import listarVendedor
+from src.func.vendedor.atualizarVendedor import atualizarVendedor
+from src.func.vendedor.deletarVendedor import deletarVendedor
+from src.func.vendedor.sincronizacao.moverVendedoresParaMongo import moverVendedoresParaMongo
+from src.func.vendedor.cadastrarVendedor import cadastrarVendedor
+from src.func.sistemaDeLogin.checarSessao import checarSessao
+from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
 
 def menuVendedor():
     while True:
+        if not checarSessao():
+            moverUsuariosParaMongo()
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Vendedor")
         print("1 - Cadastrar Vendedor")
-        print("2 - Consultar Vendedores")
+        print("2 - Listar Vendedor")
         print("3 - Atualizar Vendedor")
         print("4 - Deletar Vendedor")
+        print("5 - Mover Vendedores do Redis para MongoDB")
         print("0 - Voltar")
         print("=-" * 30 + "\n")
-        
+
         opcao = str(input("Digite a opção desejada: "))
-        
+
         match opcao:
             case "1":
-                print("Cadastrar Vendedor")
-                input()
+                cadastrarVendedor()
             case "2":
-                print("Consultar Vendedores")
-                input()
+                listarVendedor()
             case "3":
-                print("Atualizar Vendedor")
-                input()
+                atualizarVendedor()
             case "4":
-                print("Deletar Vendedor")
-                input()
+                deletarVendedor()
+            case "5":
+                moverVendedoresParaMongo()
             case "0":
                 break
             case _:

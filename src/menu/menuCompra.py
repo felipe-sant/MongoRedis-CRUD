@@ -1,12 +1,20 @@
 from src.utils.limparTerminal import limparTerminal
+from src.func.compra.cadastrarCompra import cadastrarCompra
+from src.func.compra.listarCompra import listarCompra
+from src.func.compra.deletarCompra import deletarCompra
+from src.func.compra.atualizarCompra import atualizarCompra
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuCompra():
     while True:
+        if not checarSessao():
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Compras")
         print("1 - Cadastrar Compra")
-        print("2 - Consultar Compras")
+        print("2 - Listar Compras")
         print("3 - Atualizar Compra")
         print("4 - Deletar Compra")
         print("0 - Voltar")
@@ -16,17 +24,13 @@ def menuCompra():
         
         match opcao:
             case "1":
-                print("Cadastrar Compra")
-                input()
+                cadastrarCompra()
             case "2":
-                print("Consultar Compras")
-                input()
+                listarCompra()
             case "3":
-                print("Atualizar Compra")
-                input()
+                atualizarCompra()
             case "4":
-                print("Deletar Compra")
-                input()
+                deletarCompra()
             case "0":
                 break
             case _:

@@ -1,3 +1,3 @@
-from src.menu.menuPrincipal import menuPrincipal
+from src.menu.menuLogin import menuLogin
 
-menuPrincipal()
+menuLogin()

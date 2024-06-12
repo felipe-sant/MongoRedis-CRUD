@@ -1,9 +1,8 @@
 from src.model.usuario import Usuario
-from src.data.mongo.func.atualizar import atualizar
 
-def criarUsuario():
+def criarUsuario(id):
     nome = str(input("Digite o nome do usuário: "))
     endereco = str(input("Digite o endereço do usuário: "))
     rg = str(input("Digite o RG do usuário: "))
-    usuario = Usuario(nome, endereco, rg)
+    usuario = Usuario(id, nome, endereco, rg)
     return usuario

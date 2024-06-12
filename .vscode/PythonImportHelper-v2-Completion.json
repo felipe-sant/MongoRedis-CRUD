@@ -81,6 +81,14 @@
         "documentation": {}
     },
     {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -99,179 +107,1059 @@
         "documentation": {}
     },
     {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.criarChave",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.criarChave",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.criarChave",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "set",
-        "importPath": "src.data.redis.func.set",
-        "description": "src.data.redis.func.set",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.set",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "set",
-        "importPath": "src.data.redis.func.set",
-        "description": "src.data.redis.func.set",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.set",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.func.usuario.criarUsuario",
-        "description": "src.func.usuario.criarUsuario",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.usuario.criarUsuario",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "criarUsuario",
-        "importPath": "src.func.usuario.criarUsuario",
-        "description": "src.func.usuario.criarUsuario",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.func.usuario.criarUsuario",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "jsonParaUsuario",
-        "importPath": "src.utils.jsonParaUsuario",
-        "description": "src.utils.jsonParaUsuario",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.utils.jsonParaUsuario",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "jsonParaUsuario",
-        "importPath": "src.utils.jsonParaUsuario",
-        "description": "src.utils.jsonParaUsuario",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.utils.jsonParaUsuario",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "usuarioParaJson",
-        "importPath": "src.utils.usuarioParaJson",
-        "description": "src.utils.usuarioParaJson",
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
         "isExtraImport": true,
-        "detail": "src.utils.usuarioParaJson",
+        "detail": "bson.objectid",
         "documentation": {}
     },
     {
-        "label": "usuarioParaJson",
-        "importPath": "src.utils.usuarioParaJson",
-        "description": "src.utils.usuarioParaJson",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.utils.usuarioParaJson",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "BuscarDados",
-        "importPath": "src.func.buscarDados",
-        "description": "src.func.buscarDados",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.func.buscarDados",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "BuscarDados",
-        "importPath": "src.func.buscarDados",
-        "description": "src.func.buscarDados",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.func.buscarDados",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "listarUsuarios",
-        "importPath": "src.func.usuario.listarUsuarios",
-        "description": "src.func.usuario.listarUsuarios",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.func.usuario.listarUsuarios",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.verificarIdExistente",
         "documentation": {}
     },
     {
-        "label": "atualizar",
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "buscarMongo",
+        "importPath": "src.data.mongo.func.buscar",
+        "description": "src.data.mongo.func.buscar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.buscar",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
         "importPath": "src.data.mongo.func.atualizar",
         "description": "src.data.mongo.func.atualizar",
         "isExtraImport": true,
         "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarMongo",
+        "importPath": "src.data.mongo.func.atualizar",
+        "description": "src.data.mongo.func.atualizar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.atualizar",
+        "documentation": {}
+    },
+    {
+        "label": "setarUsuario",
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "setarUsuario",
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "isExtraImport": true,
+        "detail": "src.menu.crudProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "criarMongo",
+        "importPath": "src.data.mongo.func.criar",
+        "description": "src.data.mongo.func.criar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.criar",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "isExtraImport": true,
+        "detail": "src.model.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "isExtraImport": true,
+        "detail": "src.model.compra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosMongo",
+        "importPath": "src.data.mongo.func.deletar",
+        "description": "src.data.mongo.func.deletar",
+        "isExtraImport": true,
+        "detail": "src.data.mongo.func.deletar",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodasComprasDoMongo",
+        "importPath": "src.func.compra.buscarTodasComprasDoMongo",
+        "description": "src.func.compra.buscarTodasComprasDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.compra.buscarTodasComprasDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaProduto",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaProduto",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaProduto",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaProduto",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "importPath": "src.func.produto.criarProduto",
+        "description": "src.func.produto.criarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "importPath": "src.func.produto.criarProduto",
+        "description": "src.func.produto.criarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "usuarioParaJson",
+        "importPath": "src.utils.usuarioParaJson",
+        "description": "src.utils.usuarioParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "produtoParaJson",
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "produtoParaJson",
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "produtoParaJson",
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.model.produto",
+        "description": "src.model.produto",
+        "isExtraImport": true,
+        "detail": "src.model.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.model.produto",
+        "description": "src.model.produto",
+        "isExtraImport": true,
+        "detail": "src.model.produto",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "src.model.produto",
+        "description": "src.model.produto",
+        "isExtraImport": true,
+        "detail": "src.model.produto",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodosProdutosDoMongo",
+        "importPath": "src.func.produto.buscarTodosProdutosDoMongo",
+        "description": "src.func.produto.buscarTodosProdutosDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.produto.buscarTodosProdutosDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "expire",
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.expire",
+        "documentation": {}
+    },
+    {
+        "label": "expire",
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.expire",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.set",
         "documentation": {}
     },
     {
@@ -283,6 +1171,176 @@
         "documentation": {}
     },
     {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "getpass",
+        "description": "getpass",
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "isExtraImport": true,
+        "detail": "src.utils.criptografarSenha",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "isExtraImport": true,
+        "detail": "src.utils.criptografarSenha",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
         "label": "key",
         "importPath": "src.data.redis.func.keys",
         "description": "src.data.redis.func.keys",
@@ -299,11 +1357,403 @@
         "documentation": {}
     },
     {
-        "label": "buscar",
-        "importPath": "src.data.mongo.func.buscar",
-        "description": "src.data.mongo.func.buscar",
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
         "isExtraImport": true,
-        "detail": "src.data.mongo.func.buscar",
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosUsuariosDoRedis",
+        "importPath": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "description": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosUsuariosDoRedis",
+        "importPath": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "description": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoMongo",
+        "importPath": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "description": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosUsuariosRedis",
+        "importPath": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "description": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaUsuario",
+        "importPath": "src.utils.jsonParaUsuario",
+        "description": "src.utils.jsonParaUsuario",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "isExtraImport": true,
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "isExtraImport": true,
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "BuscarDados",
+        "importPath": "src.func.buscarDados",
+        "description": "src.func.buscarDados",
+        "isExtraImport": true,
+        "detail": "src.func.buscarDados",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "criarUsuario",
+        "importPath": "src.func.usuario.criarUsuario",
+        "description": "src.func.usuario.criarUsuario",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.criarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoRedis",
+        "importPath": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "description": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoMongo",
+        "importPath": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "description": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoRedis",
+        "importPath": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "description": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosUsuariosDoMongo",
+        "importPath": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "description": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "isExtraImport": true,
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorParaJson",
+        "importPath": "src.utils.vendedorParaJson",
+        "description": "src.utils.vendedorParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.vendedorParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorParaJson",
+        "importPath": "src.utils.vendedorParaJson",
+        "description": "src.utils.vendedorParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.vendedorParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorParaJson",
+        "importPath": "src.utils.vendedorParaJson",
+        "description": "src.utils.vendedorParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.vendedorParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorParaJson",
+        "importPath": "src.utils.vendedorParaJson",
+        "description": "src.utils.vendedorParaJson",
+        "isExtraImport": true,
+        "detail": "src.utils.vendedorParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoRedis",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoRedis",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarVendedorAoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "description": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosVendedoresRedis",
+        "importPath": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "description": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProdutos",
+        "importPath": "src.func.atualizarProdutos",
+        "description": "src.func.atualizarProdutos",
+        "isExtraImport": true,
+        "detail": "src.func.atualizarProdutos",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaVendedor",
+        "importPath": "src.utils.jsonParaVendedor",
+        "description": "src.utils.jsonParaVendedor",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaVendedor",
+        "importPath": "src.utils.jsonParaVendedor",
+        "description": "src.utils.jsonParaVendedor",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaVendedor",
+        "importPath": "src.utils.jsonParaVendedor",
+        "description": "src.utils.jsonParaVendedor",
+        "isExtraImport": true,
+        "detail": "src.utils.jsonParaVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "criarVendedor",
+        "importPath": "src.func.vendedor.criarVendedor",
+        "description": "src.func.vendedor.criarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "criarVendedor",
+        "importPath": "src.func.vendedor.criarVendedor",
+        "description": "src.func.vendedor.criarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedorNoRedis",
+        "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedorNoMongo",
+        "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarVendedorAoRedis",
+        "importPath": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "description": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "moverVendedoresParaMongo",
+        "importPath": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "description": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "moverVendedoresParaMongo",
+        "importPath": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "description": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
         "documentation": {}
     },
     {
@@ -347,19 +1797,155 @@
         "documentation": {}
     },
     {
-        "label": "menuCompra",
-        "importPath": "src.menu.menuCompra",
-        "description": "src.menu.menuCompra",
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
         "isExtraImport": true,
-        "detail": "src.menu.menuCompra",
+        "detail": "src.utils.limparTerminal",
         "documentation": {}
     },
     {
-        "label": "menuProduto",
-        "importPath": "src.menu.menuProduto",
-        "description": "src.menu.menuProduto",
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
         "isExtraImport": true,
-        "detail": "src.menu.menuProduto",
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.func.produto.listarProduto",
+        "description": "src.func.produto.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "importPath": "src.func.produto.listarProduto",
+        "description": "src.func.produto.listarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "inserirProduto",
+        "importPath": "src.func.inserirProduto",
+        "description": "src.func.inserirProduto",
+        "isExtraImport": true,
+        "detail": "src.func.inserirProduto",
+        "documentation": {}
+    },
+    {
+        "label": "removerProduto",
+        "importPath": "src.func.removerProduto",
+        "description": "src.func.removerProduto",
+        "isExtraImport": true,
+        "detail": "src.func.removerProduto",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "importPath": "src.func.compra.cadastrarCompra",
+        "description": "src.func.compra.cadastrarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "importPath": "src.func.compra.listarCompra",
+        "description": "src.func.compra.listarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.listarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "importPath": "src.func.compra.deletarCompra",
+        "description": "src.func.compra.deletarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "importPath": "src.func.compra.atualizarCompra",
+        "description": "src.func.compra.atualizarCompra",
+        "isExtraImport": true,
+        "detail": "src.func.compra.atualizarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "importPath": "src.func.sistemaDeLogin.registrar",
+        "description": "src.func.sistemaDeLogin.registrar",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.registrar",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "src.func.sistemaDeLogin.login",
+        "description": "src.func.sistemaDeLogin.login",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.login",
+        "documentation": {}
+    },
+    {
+        "label": "definirTempoExpiracao",
+        "importPath": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "description": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.definirTempoExpiracao",
         "documentation": {}
     },
     {
@@ -379,6 +1965,54 @@
         "documentation": {}
     },
     {
+        "label": "menuProduto",
+        "importPath": "src.menu.menuProduto",
+        "description": "src.menu.menuProduto",
+        "isExtraImport": true,
+        "detail": "src.menu.menuProduto",
+        "documentation": {}
+    },
+    {
+        "label": "menuCompra",
+        "importPath": "src.menu.menuCompra",
+        "description": "src.menu.menuCompra",
+        "isExtraImport": true,
+        "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "expirarSessao",
+        "importPath": "src.func.sistemaDeLogin.expirarSessao",
+        "description": "src.func.sistemaDeLogin.expirarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.expirarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarProduto",
+        "importPath": "src.func.produto.cadastrarProduto",
+        "description": "src.func.produto.cadastrarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.cadastrarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProduto",
+        "importPath": "src.func.produto.atualizarProduto",
+        "description": "src.func.produto.atualizarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.atualizarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "deletarProduto",
+        "importPath": "src.func.produto.deletarProduto",
+        "description": "src.func.produto.deletarProduto",
+        "isExtraImport": true,
+        "detail": "src.func.produto.deletarProduto",
+        "documentation": {}
+    },
+    {
         "label": "cadastrarUsuario",
         "importPath": "src.func.usuario.cadastrarUsuario",
         "description": "src.func.usuario.cadastrarUsuario",
@@ -387,27 +2021,19 @@
         "documentation": {}
     },
     {
-        "label": "consultarUsuario",
-        "importPath": "src.func.usuario.consultarUsuario",
-        "description": "src.func.usuario.consultarUsuario",
+        "label": "listarUsuario",
+        "importPath": "src.func.usuario.listarUsuario",
+        "description": "src.func.usuario.listarUsuario",
         "isExtraImport": true,
-        "detail": "src.func.usuario.consultarUsuario",
+        "detail": "src.func.usuario.listarUsuario",
         "documentation": {}
     },
     {
-        "label": "excluirTodosUsuarios",
-        "importPath": "src.func.usuario.excluirUsuario",
-        "description": "src.func.usuario.excluirUsuario",
+        "label": "deletarUsuario",
+        "importPath": "src.func.usuario.deletarUsuario",
+        "description": "src.func.usuario.deletarUsuario",
         "isExtraImport": true,
-        "detail": "src.func.usuario.excluirUsuario",
-        "documentation": {}
-    },
-    {
-        "label": "excluirUsuario",
-        "importPath": "src.func.usuario.excluirUsuario",
-        "description": "src.func.usuario.excluirUsuario",
-        "isExtraImport": true,
-        "detail": "src.func.usuario.excluirUsuario",
+        "detail": "src.func.usuario.deletarUsuario",
         "documentation": {}
     },
     {
@@ -416,6 +2042,46 @@
         "description": "src.func.usuario.atualizarUsuario",
         "isExtraImport": true,
         "detail": "src.func.usuario.atualizarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "listarVendedor",
+        "importPath": "src.func.vendedor.listarVendedor",
+        "description": "src.func.vendedor.listarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.listarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedor",
+        "importPath": "src.func.vendedor.atualizarVendedor",
+        "description": "src.func.vendedor.atualizarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.atualizarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "deletarVendedor",
+        "importPath": "src.func.vendedor.deletarVendedor",
+        "description": "src.func.vendedor.deletarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.deletarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarVendedor",
+        "importPath": "src.func.vendedor.cadastrarVendedor",
+        "description": "src.func.vendedor.cadastrarVendedor",
+        "isExtraImport": true,
+        "detail": "src.func.vendedor.cadastrarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -428,55 +2094,55 @@
         "documentation": {}
     },
     {
-        "label": "menuPrincipal",
-        "importPath": "src.menu.menuPrincipal",
-        "description": "src.menu.menuPrincipal",
+        "label": "menuLogin",
+        "importPath": "src.menu.menuLogin",
+        "description": "src.menu.menuLogin",
         "isExtraImport": true,
-        "detail": "src.menu.menuPrincipal",
+        "detail": "src.menu.menuLogin",
         "documentation": {}
     },
     {
-        "label": "atualizar",
+        "label": "atualizarMongo",
         "kind": 2,
         "importPath": "src.data.mongo.func.atualizar",
         "description": "src.data.mongo.func.atualizar",
-        "peekOfCode": "def atualizar(colecao, novoDado, filtro):\n    try:\n        database[colecao].update_many(filtro, {\"$set\": novoDado})\n        return \"Documento atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao atualizar documento: {e}\"",
+        "peekOfCode": "def atualizarMongo(colecao, novoDado, filtro):\n    try:\n        database[colecao].update_many(filtro, {\"$set\": novoDado})\n        return \"Documento atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao atualizar documento: {e}\"",
         "detail": "src.data.mongo.func.atualizar",
         "documentation": {}
     },
     {
-        "label": "buscar",
+        "label": "buscarMongo",
         "kind": 2,
         "importPath": "src.data.mongo.func.buscar",
         "description": "src.data.mongo.func.buscar",
-        "peekOfCode": "def buscar(colecao, filtro=None):\n    try:\n        dados = database[colecao].find(filtro)\n        return dados\n    except Exception as e:\n        return None",
+        "peekOfCode": "def buscarMongo(colecao, filtro=None):\n    try:\n        dados = database[colecao].find(filtro)\n        return dados\n    except Exception as e:\n        return None",
         "detail": "src.data.mongo.func.buscar",
         "documentation": {}
     },
     {
-        "label": "criar",
+        "label": "criarMongo",
         "kind": 2,
         "importPath": "src.data.mongo.func.criar",
         "description": "src.data.mongo.func.criar",
-        "peekOfCode": "def criar(colecao, dados):\n    if type(dados) == dict:\n        database[colecao].insert_one(dados)\n        return \"Documento inserido com sucesso!\"\n    elif type(dados) == list:\n        database[colecao].insert_many(dados)\n        return f\"{len(dados)} documentos inseridos com sucesso!\"\n    else:\n        return \"Erro ao inserir documento!\"",
+        "peekOfCode": "def criarMongo(colecao, dados):\n    try:\n        database[colecao].insert_one(dados)\n    except Exception as e:\n        print(f\"Erro ao inserir documento! \\n{e}\")\n        input()",
         "detail": "src.data.mongo.func.criar",
         "documentation": {}
     },
     {
-        "label": "deletar",
+        "label": "deletarMongo",
         "kind": 2,
         "importPath": "src.data.mongo.func.deletar",
         "description": "src.data.mongo.func.deletar",
-        "peekOfCode": "def deletar(colecao, filtro):\n    try:\n        database[colecao].delete_one(filtro)\n        return \"Documento deletado com sucesso!\"\n    except Exception as e:\n        return \"Erro ao deletar documento!\"\ndef deletarTodos(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"",
+        "peekOfCode": "def deletarMongo(colecao, filtro):\n    try:\n        database[colecao].delete_one(filtro)\n        return \"Documento deletado com sucesso!\"\n    except Exception as e:\n        return \"Erro ao deletar documento!\"\ndef deletarTodosMongo(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"",
         "detail": "src.data.mongo.func.deletar",
         "documentation": {}
     },
     {
-        "label": "deletarTodos",
+        "label": "deletarTodosMongo",
         "kind": 2,
         "importPath": "src.data.mongo.func.deletar",
         "description": "src.data.mongo.func.deletar",
-        "peekOfCode": "def deletarTodos(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao deletar documentos: {e}\"",
+        "peekOfCode": "def deletarTodosMongo(colecao):\n    try:\n        database[colecao].delete_many({})\n        return \"Documentos deletados com sucesso!\"\n    except Exception as e:\n        return f\"Erro ao deletar documentos: {e}\"",
         "detail": "src.data.mongo.func.deletar",
         "documentation": {}
     },
@@ -508,11 +2174,20 @@
         "documentation": {}
     },
     {
+        "label": "expire",
+        "kind": 2,
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "peekOfCode": "def expire(chave, segundos):\n    connection.expire(chave, segundos)",
+        "detail": "src.data.redis.func.expire",
+        "documentation": {}
+    },
+    {
         "label": "get",
         "kind": 2,
         "importPath": "src.data.redis.func.get",
         "description": "src.data.redis.func.get",
-        "peekOfCode": "def get(chave):\n    try:\n        return json.loads(connection.get(chave))\n    except Exception as e:\n        return None",
+        "peekOfCode": "def get(chave, isJson = True):\n    try:\n        if isJson:\n            return json.loads(connection.get(chave))\n        return connection.get(chave)\n    except Exception as e:\n        print(e)\n        return None",
         "detail": "src.data.redis.func.get",
         "documentation": {}
     },
@@ -544,11 +2219,245 @@
         "documentation": {}
     },
     {
+        "label": "setarUsuario",
+        "kind": 2,
+        "importPath": "src.func.compra.usuario.setarUsuario",
+        "description": "src.func.compra.usuario.setarUsuario",
+        "peekOfCode": "def setarUsuario(compra):\n    id = str(input(\"Digite o id do usuário: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if verificarIdExistente(\"usuario\", objectId):\n        usuario = buscarMongo(\"usuario\", {\"_id\": objectId})[0]",
+        "detail": "src.func.compra.usuario.setarUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.atualizarCompra",
+        "description": "src.func.compra.atualizarCompra",
+        "peekOfCode": "def atualizarCompra():\n    id = input(\"Digite o id da compra: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"compra\", objectId):\n        print(\"\\nCompra não encontrada\")",
+        "detail": "src.func.compra.atualizarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodasComprasDoMongo",
+        "kind": 2,
+        "importPath": "src.func.compra.buscarTodasComprasDoMongo",
+        "description": "src.func.compra.buscarTodasComprasDoMongo",
+        "peekOfCode": "def buscarTodasComprasDoMongo():\n    dados = buscarMongo(\"compra\")\n    listaDeCompras = []\n    for compra in dados:\n        listaDeCompras.append(jsonParaCompra(compra))\n    return listaDeCompras",
+        "detail": "src.func.compra.buscarTodasComprasDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.cadastrarCompra",
+        "description": "src.func.compra.cadastrarCompra",
+        "peekOfCode": "def cadastrarCompra():\n    compra = criarCompra()\n    setarUsuario(compra)\n    crudProdutos(compra)\n    compraJson = compraParaJson(compra)\n    criarMongo(\"compra\", compraJson)",
+        "detail": "src.func.compra.cadastrarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "criarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.criarCompra",
+        "description": "src.func.compra.criarCompra",
+        "peekOfCode": "def criarCompra():\n    data_compra = str(input(\"Digite a data da compra (dd/mm/yyyy): \"))\n    compra = Compra(data_compra) \n    return compra",
+        "detail": "src.func.compra.criarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "deletarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.deletarCompra",
+        "description": "src.func.compra.deletarCompra",
+        "peekOfCode": "def deletarCompra():\n    id = input(\"Digite o id da compra: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"compra\", objectId):\n        print(\"\\nCompra não encontrada\")",
+        "detail": "src.func.compra.deletarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "listarCompra",
+        "kind": 2,
+        "importPath": "src.func.compra.listarCompra",
+        "description": "src.func.compra.listarCompra",
+        "peekOfCode": "def listarCompra():\n    id = input(\"Digite o id da compra (deixe em branco para listar todas): \")\n    if id == \"\":\n        listaDeCompras = buscarTodasComprasDoMongo()\n        print()\n        for i in range(len(listaDeCompras)):\n            print(f\"- ({i+1}/{len(listaDeCompras)}) -\")\n            listaDeCompras[i].mostrar()\n            input()\n        return",
+        "detail": "src.func.compra.listarCompra",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProduto",
+        "kind": 2,
+        "importPath": "src.func.produto.atualizarProduto",
+        "description": "src.func.produto.atualizarProduto",
+        "peekOfCode": "def atualizarProduto():\n    id = input(\"Digite o id do produto: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"produto\", objectId):\n        print(\"\\nProduto não encontrado\")",
+        "detail": "src.func.produto.atualizarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "buscarTodosProdutosDoMongo",
+        "kind": 2,
+        "importPath": "src.func.produto.buscarTodosProdutosDoMongo",
+        "description": "src.func.produto.buscarTodosProdutosDoMongo",
+        "peekOfCode": "def buscarTodosProdutosDoMongo():\n    try:\n        dados = buscarMongo(\"produto\")\n        listaDeProdutos = []\n        for produto in dados:\n            listaDeProdutos.append(JsonParaProduto(produto))\n    except:\n        listaDeProdutos = None\n    return listaDeProdutos",
+        "detail": "src.func.produto.buscarTodosProdutosDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarProduto",
+        "kind": 2,
+        "importPath": "src.func.produto.cadastrarProduto",
+        "description": "src.func.produto.cadastrarProduto",
+        "peekOfCode": "def cadastrarProduto():\n    produto = criarProduto()\n    produtoJson = produtoParaJson(produto)\n    criarMongo(\"produto\", produtoJson)",
+        "detail": "src.func.produto.cadastrarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "criarProduto",
+        "kind": 2,
+        "importPath": "src.func.produto.criarProduto",
+        "description": "src.func.produto.criarProduto",
+        "peekOfCode": "def criarProduto():\n    nome = str(input(\"Digite o nome do produto: \"))\n    descricao = str(input(\"Digite a descrição do produto: \"))\n    preco = str(input(\"Digite o preço do produto: \"))\n    estoque = str(input(\"Digite a quantidade em estoque do produto: \"))\n    produto = Produto(nome, descricao, preco, estoque)\n    return produto",
+        "detail": "src.func.produto.criarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "deletarProduto",
+        "kind": 2,
+        "importPath": "src.func.produto.deletarProduto",
+        "description": "src.func.produto.deletarProduto",
+        "peekOfCode": "def deletarProduto():\n    id = input(\"Digite o id do produto: \")\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"\\nId inválido\")\n        input()\n        return\n    if not verificarIdExistente(\"produto\", objectId):\n        print(\"\\nProduto não encontrado\")",
+        "detail": "src.func.produto.deletarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "listarProduto",
+        "kind": 2,
+        "importPath": "src.func.produto.listarProduto",
+        "description": "src.func.produto.listarProduto",
+        "peekOfCode": "def listarProduto():\n    id = input(\"Digite o id do produto (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        listaDeProdutos = buscarTodosProdutosDoMongo()\n        print()\n        for i in range(len(listaDeProdutos)):\n            print(f\"- ({i+1}/{len(listaDeProdutos)}) -\")\n            listaDeProdutos[i].mostrar()\n            input()\n        return",
+        "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "peekOfCode": "def checarSessao():\n    sessao_chave = criarChave(\"sessions\", \"redis\")\n    if verificarChaveExistente(\"sessions\", sessao_chave):\n        return True\n    return False",
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "definirTempoExpiracao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "description": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "peekOfCode": "def definirTempoExpiracao():\n    segundos = int(input(\"Digite o tempo de expiração da sessão em segundos: \"))\n    sessao_chave = criarChave(\"sessions\", \"tempoDeExpiracao\")\n    set(sessao_chave, segundos)\n    print(\"\\nTempo de expiração definido com sucesso!\")\n    input()",
+        "detail": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "documentation": {}
+    },
+    {
+        "label": "expirarSessao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.expirarSessao",
+        "description": "src.func.sistemaDeLogin.expirarSessao",
+        "peekOfCode": "def expirarSessao():\n    sessao_chave = criarChave(\"sessions\", \"redis\")\n    if verificarChaveExistente(\"sessions\", sessao_chave):\n        delete(sessao_chave)",
+        "detail": "src.func.sistemaDeLogin.expirarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.login",
+        "description": "src.func.sistemaDeLogin.login",
+        "peekOfCode": "def login():\n    nomeDeUser = str(input(\"Nome de usuário: \"))\n    senha = str(getpass.getpass(\"Senha: \"))\n    chave = criarChave(\"system_users\", nomeDeUser)\n    senhaDoServidor = get(chave, False)\n    if senhaDoServidor != None:\n        senhaDoServidor = senhaDoServidor.decode(\"utf-8\")\n    if criptografarSenha(senha) == senhaDoServidor:\n        sessao_chave = criarChave(\"sessions\", \"redis\")\n        sessao_id = hashlib.sha256((nomeDeUser+senha).encode()).hexdigest()",
+        "detail": "src.func.sistemaDeLogin.login",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.registrar",
+        "description": "src.func.sistemaDeLogin.registrar",
+        "peekOfCode": "def registrar():\n    nomeDeUser = str(input(\"Nome de usuário: \"))\n    senha = str(getpass.getpass(\"Senha: \"))\n    confirmacaoDeSenha = str(getpass.getpass(\"Confirme sua senha: \"))\n    if senha != confirmacaoDeSenha:\n        print(\"\\nAs senhas não coincidem!\")\n        input()\n        return\n    chave = criarChave(\"system_users\", nomeDeUser)\n    senhaCriptografada = criptografarSenha(senha)",
+        "detail": "src.func.sistemaDeLogin.registrar",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoMongo",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "description": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "peekOfCode": "def adicionarUsuarioAoMongo(usuario: Usuario):\n    usuarioJson = usuarioParaJson(usuario, False)\n    criarMongo(\"usuario\", usuarioJson)",
+        "detail": "src.func.usuario.sincronizacao.adicionarUsuarioAoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarUsuarioAoRedis",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "description": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "peekOfCode": "def adicionarUsuarioAoRedis(usuario: Usuario):\n    usuarioJson = usuarioParaJson(usuario)\n    try:\n        set(usuario.id, usuarioJson)\n        return \"Usuário cadastrado com sucesso!\"\n    except Exception as e:\n        return f\"Erro: {e}\"",
+        "detail": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoMongo",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "description": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "peekOfCode": "def atualizarUsuarioNoMongo(id, usuario: Usuario, usuarioNovo: Usuario):\n    usuarioNovo.id = \"\"\n    usuario.atualizar(usuarioNovo)\n    usuarioJson = usuarioParaJson(usuario, False)\n    try:\n        atualizarMongo(\"usuario\", usuarioJson, {\"_id\": id})\n        return \"Usuário atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro: {e}\"",
+        "detail": "src.func.usuario.sincronizacao.atualizarUsuarioNoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarUsuarioNoRedis",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "description": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "peekOfCode": "def atualizarUsuarioNoRedis(id, usuario: Usuario, usuarioNovo: Usuario):\n    usuario.atualizar(usuarioNovo)\n    usuarioJson = usuarioParaJson(usuario)\n    try:\n        set(id, usuarioJson)\n        return \"Usuário atualizado com sucesso!\"\n    except Exception as e:\n        return f\"Erro: {e}\"",
+        "detail": "src.func.usuario.sincronizacao.atualizarUsuarioNoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosUsuariosRedis",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "description": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "peekOfCode": "def deletarTodosUsuariosRedis():\n    chaves = key(\"usuario\")\n    for chave in chaves:\n        try:\n            delete(chave)\n        except:\n            print(f\"Ocorreu um erro ao deletar a chave {chave}\")",
+        "detail": "src.func.usuario.sincronizacao.deletarTodosUsuariosRedis",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "peekOfCode": "def moverUsuariosParaMongo():\n    usuariosRedis = pegarTodosUsuariosDoRedis()\n    for usuario in usuariosRedis:\n        try:\n            adicionarUsuarioAoMongo(usuario)\n            print(f\"Usuário {usuario.nome} adicionado com sucesso\")\n        except:\n            print(f\"Erro ao adicionar usuário {usuario.nome}\")\n    deletarTodosUsuariosRedis()",
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosUsuariosDoMongo",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "description": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "peekOfCode": "def pegarTodosUsuariosDoMongo():\n    try:\n        dados = buscarMongo(\"usuario\")\n        listaDeUsuarios = []\n        for usuario in dados:\n            listaDeUsuarios.append(jsonParaUsuario(usuario))    \n    except:\n        listaDeUsuarios = None\n    return listaDeUsuarios",
+        "detail": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosUsuariosDoRedis",
+        "kind": 2,
+        "importPath": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "description": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "peekOfCode": "def pegarTodosUsuariosDoRedis():\n    dados = BuscarDados(\"usuario\")\n    listaDeUsuarios = []\n    for usuario in dados:\n        listaDeUsuarios.append(jsonParaUsuario(usuario))\n    return listaDeUsuarios",
+        "detail": "src.func.usuario.sincronizacao.pegarTodosUsuariosDoRedis",
+        "documentation": {}
+    },
+    {
         "label": "atualizarUsuario",
         "kind": 2,
         "importPath": "src.func.usuario.atualizarUsuario",
         "description": "src.func.usuario.atualizarUsuario",
-        "peekOfCode": "def atualizarUsuario():\n    chaveParaAtualizar = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chaveParaAtualizar)):\n            usuarioJson = get(chaveParaAtualizar)\n            usuario = jsonParaUsuario(usuarioJson)\n            usuario.atualizar(criarUsuario())\n            novoUsuarioJson = usuarioParaJson(usuario, chaveParaAtualizar)\n            set(chaveParaAtualizar, novoUsuarioJson)\n            print(\"\\nUsuário atualizado com sucesso!\")",
+        "peekOfCode": "def atualizarUsuario():\n    id = input(\"Digite o id do usuário: \")\n    try:\n        chave = criarChave(\"usuario\", id)\n        if (verificarChaveExistente(\"usuario\", chave)):\n            usuario = jsonParaUsuario(get(chave))\n            usuarioNovo = criarUsuario(chave)\n            atualizarUsuarioNoRedis(chave, usuario, usuarioNovo)\n            print(\"\\nUsuário atualizado com sucesso!\")\n            input()",
         "detail": "src.func.usuario.atualizarUsuario",
         "documentation": {}
     },
@@ -557,17 +2466,8 @@
         "kind": 2,
         "importPath": "src.func.usuario.cadastrarUsuario",
         "description": "src.func.usuario.cadastrarUsuario",
-        "peekOfCode": "def cadastrarUsuario():\n    chave = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chave)):\n            print(\"\\nUsuário já cadastrado!\")\n            input()\n            return\n        usuario = criarUsuario()\n        set(chave, usuarioParaJson(usuario, chave))\n        print(\"\\nUsuário cadastrado com sucesso!\")",
+        "peekOfCode": "def cadastrarUsuario():\n    id = criarChave(\"usuario\")\n    if verificarChaveExistente(\"usuario\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    usuario = criarUsuario(id)\n    adicionarUsuarioAoRedis(usuario)",
         "detail": "src.func.usuario.cadastrarUsuario",
-        "documentation": {}
-    },
-    {
-        "label": "consultarUsuario",
-        "kind": 2,
-        "importPath": "src.func.usuario.consultarUsuario",
-        "description": "src.func.usuario.consultarUsuario",
-        "peekOfCode": "def consultarUsuario():\n    nome = str(input(\"Digite o nome do usuário (deixe vazio para listar todos): \"))\n    try:\n        print()\n        if nome == \"\":\n            usuarios = BuscarDados(\"usuario\")\n            if usuarios == []:\n                print(\"Nenhum usuário encontrado\")\n                input()\n                return",
-        "detail": "src.func.usuario.consultarUsuario",
         "documentation": {}
     },
     {
@@ -575,35 +2475,152 @@
         "kind": 2,
         "importPath": "src.func.usuario.criarUsuario",
         "description": "src.func.usuario.criarUsuario",
-        "peekOfCode": "def criarUsuario():\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(nome, endereco, rg)\n    return usuario",
+        "peekOfCode": "def criarUsuario(id):\n    nome = str(input(\"Digite o nome do usuário: \"))\n    endereco = str(input(\"Digite o endereço do usuário: \"))\n    rg = str(input(\"Digite o RG do usuário: \"))\n    usuario = Usuario(id, nome, endereco, rg)\n    return usuario",
         "detail": "src.func.usuario.criarUsuario",
         "documentation": {}
     },
     {
-        "label": "excluirUsuario",
+        "label": "deletarUsuario",
         "kind": 2,
-        "importPath": "src.func.usuario.excluirUsuario",
-        "description": "src.func.usuario.excluirUsuario",
-        "peekOfCode": "def excluirUsuario():\n    chaveParaExcluir = criarChave(\"usuario\")\n    try:\n        if (verificarChaveExistente(\"usuario\", chaveParaExcluir)):\n            delete(chaveParaExcluir)\n            print(\"\\nUsuário deletado com sucesso!\")\n            input()\n        else:\n            raise Exception(\"Chave não encontrada!\")\n    except Exception as e:",
-        "detail": "src.func.usuario.excluirUsuario",
+        "importPath": "src.func.usuario.deletarUsuario",
+        "description": "src.func.usuario.deletarUsuario",
+        "peekOfCode": "def deletarUsuario():\n    id = input(\"Digite o id do usuário: \")\n    try:\n        chave = criarChave(\"usuario\", id)\n        if (verificarChaveExistente(\"usuario\", chave)):\n            delete(chave)\n            print(\"\\nUsuário deletado com sucesso!\")\n            input()\n            return\n        else:",
+        "detail": "src.func.usuario.deletarUsuario",
         "documentation": {}
     },
     {
-        "label": "excluirTodosUsuarios",
+        "label": "listarUsuario",
         "kind": 2,
-        "importPath": "src.func.usuario.excluirUsuario",
-        "description": "src.func.usuario.excluirUsuario",
-        "peekOfCode": "def excluirTodosUsuarios():\n    chaves = key(\"usuario\")\n    for chave in chaves:\n        try:\n            delete(chave)\n            print(f\"Chave {chave} deletada com sucesso\")\n        except Exception as e:\n            print(f\"Ocorreu um erro ao deletar a chave {chave}\")\n    print(\"\\nTodos os usuários foram deletados com sucesso!\")\n    input()",
-        "detail": "src.func.usuario.excluirUsuario",
+        "importPath": "src.func.usuario.listarUsuario",
+        "description": "src.func.usuario.listarUsuario",
+        "peekOfCode": "def listarUsuario():\n    id = input(\"Digite o id do usuário (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        moverUsuariosParaMongo()\n        listaDeUsuarios = pegarTodosUsuariosDoMongo()\n        print()\n        for i in range(len(listaDeUsuarios)):\n            print(f\"- ({i+1}/{len(listaDeUsuarios)}) -\")\n            listaDeUsuarios[i].mostrar()\n            input()",
+        "detail": "src.func.usuario.listarUsuario",
         "documentation": {}
     },
     {
-        "label": "listarUsuarios",
+        "label": "adicionarVendedorAoMongo",
         "kind": 2,
-        "importPath": "src.func.usuario.listarUsuarios",
-        "description": "src.func.usuario.listarUsuarios",
-        "peekOfCode": "def listarUsuarios(usuarios):\n    total = len(usuarios)\n    contador = 0\n    for elemento in usuarios:\n        contador += 1\n        usuario = jsonParaUsuario(elemento)\n        print(f\"- usuário ({contador}/{total}) -\")\n        if \"chave\" in elemento:\n            chave = elemento[\"chave\"].replace(\"usuario@\", \"\")\n            print(f\"_chave: {chave}\")",
-        "detail": "src.func.usuario.listarUsuarios",
+        "importPath": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "description": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "peekOfCode": "def adicionarVendedorAoMongo(vendedorJson: Vendedor):\n    vendedor = vendedorParaJson(vendedorJson, False)\n    criarMongo(\"vendedor\", vendedor)",
+        "detail": "src.func.vendedor.sincronizacao.adicionarVendedorAoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "adicionarVendedorAoRedis",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "description": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "peekOfCode": "def adicionarVendedorAoRedis(vendedor: Vendedor):\n    vendedorJson = vendedorParaJson(vendedor)\n    try:\n        set(vendedor.id, vendedorJson)\n        return \"Vendedor cadastrado com sucesso!\"\n    except Exception as e:\n        return f\"Erro: {e}\"",
+        "detail": "src.func.vendedor.sincronizacao.adicionarVendedorAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedorNoMongo",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "peekOfCode": "def atualizarVendedorNoMongo(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedorNovo.id = \"\"\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)\n    vendedorJson = vendedorParaJson(vendedor, False)\n    try:\n        atualizarMongo(\"vendedor\", vendedorJson, {\"_id\": id})\n        return \"Vendedor atualizado com sucesso!\"",
+        "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedorNoRedis",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "description": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "peekOfCode": "def atualizarVendedorNoRedis(id, vendedor: Vendedor, vendedorNovo: Vendedor):\n    vendedor.atualizar(vendedorNovo)\n    opcao = str(input(\"Deseja adicionar produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)\n    vendedorJson = vendedorParaJson(vendedor)\n    try:\n        set(id, vendedorJson)\n        return \"Vendedor atualizado com sucesso!\"\n    except Exception as e:",
+        "detail": "src.func.vendedor.sincronizacao.atualizarVendedorNoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "deletarTodosVendedoresRedis",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "description": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "peekOfCode": "def deletarTodosVendedoresRedis():\n    chaves = key(\"vendedor\")\n    for chave in chaves:\n        try:\n            delete(chave)\n        except:\n            print(f\"Ocorreu um erro ao deletar a chave {chave}\")",
+        "detail": "src.func.vendedor.sincronizacao.deletarTodosVendedoresRedis",
+        "documentation": {}
+    },
+    {
+        "label": "moverVendedoresParaMongo",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "description": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "peekOfCode": "def moverVendedoresParaMongo():\n    vendedorRedis = pegarTodosVendedoresDoRedis()\n    for vendedor in vendedorRedis:\n        try:\n            adicionarVendedorAoMongo(vendedor)\n            print(f\"Vendedor {vendedor.nome} adicionado com sucesso\")\n        except:\n            print(f\"Erro ao adicionar vendedor {vendedor.nome}\")\n    vendedorMongo = pegarTodosVendedoresDoMongo()\n    for vendedor in vendedorMongo:",
+        "detail": "src.func.vendedor.sincronizacao.moverVendedoresParaMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoMongo",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "peekOfCode": "def pegarTodosVendedoresDoMongo():\n    try:\n        dados = buscarMongo(\"vendedor\")\n        listaDeVendedores = []\n        for vendedor in dados:\n            listaDeVendedores.append(jsonParaVendedor(vendedor))\n    except:\n        listaDeVendedores = None\n    return listaDeVendedores",
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoMongo",
+        "documentation": {}
+    },
+    {
+        "label": "pegarTodosVendedoresDoRedis",
+        "kind": 2,
+        "importPath": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "description": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "peekOfCode": "def pegarTodosVendedoresDoRedis():\n    dados = BuscarDados(\"vendedor\")\n    listaDeVendedores = []\n    for vendedor in dados:\n        listaDeVendedores.append(jsonParaVendedor(vendedor))\n    return listaDeVendedores",
+        "detail": "src.func.vendedor.sincronizacao.pegarTodosVendedoresDoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarVendedor",
+        "kind": 2,
+        "importPath": "src.func.vendedor.atualizarVendedor",
+        "description": "src.func.vendedor.atualizarVendedor",
+        "peekOfCode": "def atualizarVendedor():\n    id = input(\"Digite o id do vendedor: \")\n    try:\n        chave = criarChave(\"vendedor\", id)\n        if (verificarChaveExistente(\"vendedor\", chave)):\n            vendedor = jsonParaVendedor(get(chave))\n            vendedorNovo = criarVendedor(chave)\n            atualizarVendedorNoRedis(chave, vendedor, vendedorNovo)\n            return\n        else:",
+        "detail": "src.func.vendedor.atualizarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrarVendedor",
+        "kind": 2,
+        "importPath": "src.func.vendedor.cadastrarVendedor",
+        "description": "src.func.vendedor.cadastrarVendedor",
+        "peekOfCode": "def cadastrarVendedor():\n    id = criarChave(\"vendedor\")\n    if verificarChaveExistente(\"vendedor\", id):\n        print(\"\\nErro: chave já existente\")\n        input()\n        return\n    vendedor = criarVendedor(id)\n    opcao = str(input(\"Deseja adicionar alguns produtos? (s/n) \"))\n    if opcao == \"s\":\n        crudProdutos(vendedor, True)",
+        "detail": "src.func.vendedor.cadastrarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "criarVendedor",
+        "kind": 2,
+        "importPath": "src.func.vendedor.criarVendedor",
+        "description": "src.func.vendedor.criarVendedor",
+        "peekOfCode": "def criarVendedor(id):\n    nome = str(input(\"Digite o nome do vendedor: \"))\n    rg = str(input(\"Digite o RG do vendedor: \"))\n    vendedor = Vendedor(id, nome, rg)\n    return vendedor",
+        "detail": "src.func.vendedor.criarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "deletarVendedor",
+        "kind": 2,
+        "importPath": "src.func.vendedor.deletarVendedor",
+        "description": "src.func.vendedor.deletarVendedor",
+        "peekOfCode": "def deletarVendedor():\n    id = input(\"Digite o id do vendedor: \")\n    try:\n        chave = criarChave(\"vendedor\", id)\n        if (verificarChaveExistente(\"vendedor\", chave)):\n            delete(chave)\n            print(\"\\nVendedor deletado com sucesso!\")\n            input()\n            return\n        else:",
+        "detail": "src.func.vendedor.deletarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "listarVendedor",
+        "kind": 2,
+        "importPath": "src.func.vendedor.listarVendedor",
+        "description": "src.func.vendedor.listarVendedor",
+        "peekOfCode": "def listarVendedor():\n    id = input(\"Digite o id do vendedor (ou deixe em branco para listar todos): \")\n    if id == \"\":\n        moverVendedoresParaMongo()\n        listaDeVendedores = pegarTodosVendedoresDoMongo()\n        print()\n        for i in range(len(listaDeVendedores)):\n            print(f\"- ({i+1}/{len(listaDeVendedores)}) -\")\n            listaDeVendedores[i].mostrar()\n            input()",
+        "detail": "src.func.vendedor.listarVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "atualizarProdutos",
+        "kind": 2,
+        "importPath": "src.func.atualizarProdutos",
+        "description": "src.func.atualizarProdutos",
+        "peekOfCode": "def atualizarProdutos(colecao):\n    for produto in colecao.produtos:\n        objectId = ObjectId(produto[\"_id\"])\n        produtoMongoJson = buscarMongo(\"produto\", {\"_id\": objectId})[0]\n        produtoMongo = JsonParaProduto(produtoMongoJson)\n        produtoMongo.setVendedor(colecao)\n        produtoMongoJson = produtoParaJson(produtoMongo)\n        try:\n            atualizarMongo(\"produto\", produtoMongoJson, {\"_id\": objectId})\n        except:",
+        "detail": "src.func.atualizarProdutos",
         "documentation": {}
     },
     {
@@ -620,8 +2637,26 @@
         "kind": 2,
         "importPath": "src.func.criarChave",
         "description": "src.func.criarChave",
-        "peekOfCode": "def criarChave(colecao, chave = None):\n    if chave is None:\n        while True:\n            novaChave = input(\"Digite a chave: \")\n            if novaChave == \"\":\n                print(\"Chave inválida\")\n                continue\n            chave = novaChave\n            break\n    chave = colecao + \"@\" + chave.replace(\" \", \"_\").lower()",
+        "peekOfCode": "def criarChave(colecao, chave = None):\n    if chave is None:\n        while True:\n            novaChave = input(\"Digite um id: \")\n            if novaChave == \"\":\n                print(\"Chave inválida\")\n                continue\n            chave = novaChave\n            break\n    chave = colecao + \"@\" + chave.replace(\" \", \"_\").lower()",
         "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "inserirProduto",
+        "kind": 2,
+        "importPath": "src.func.inserirProduto",
+        "description": "src.func.inserirProduto",
+        "peekOfCode": "def inserirProduto(vendedor: Vendedor, isVendedor = False):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if verificarIdExistente(\"produto\", objectId):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
+        "detail": "src.func.inserirProduto",
+        "documentation": {}
+    },
+    {
+        "label": "removerProduto",
+        "kind": 2,
+        "importPath": "src.func.removerProduto",
+        "description": "src.func.removerProduto",
+        "peekOfCode": "def removerProduto(vendedor: Vendedor):\n    id = str(input(\"Digite o id do produto: \"))\n    try:\n        objectId = ObjectId(id)\n    except:\n        print(\"Id inválido\")\n        input()\n        return None\n    if (verificarIdExistente(\"vendedor\", objectId)):\n        produto = buscarMongo(\"produto\", {\"_id\": objectId})[0]",
+        "detail": "src.func.removerProduto",
         "documentation": {}
     },
     {
@@ -629,8 +2664,26 @@
         "kind": 2,
         "importPath": "src.func.verificarChaveExistente",
         "description": "src.func.verificarChaveExistente",
-        "peekOfCode": "def verificarChaveExistente(colecao, chave):\n    listaDados = BuscarDados(colecao)\n    for dado in listaDados:\n        if \"chave\" in dado and dado[\"chave\"] == chave:\n            return True\n    return False",
+        "peekOfCode": "def verificarChaveExistente(colecao, chaveParaVerificar):\n    listaDeChaves = key(colecao)\n    for chave in listaDeChaves:\n        if chave.decode(\"utf-8\") == chaveParaVerificar:\n            return True\n    return False",
         "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarIdExistente",
+        "kind": 2,
+        "importPath": "src.func.verificarIdExistente",
+        "description": "src.func.verificarIdExistente",
+        "peekOfCode": "def verificarIdExistente(colecao, id):\n    dado = buscarMongo(colecao, {\"_id\": id})\n    if dado is None:\n        return False\n    return True",
+        "detail": "src.func.verificarIdExistente",
+        "documentation": {}
+    },
+    {
+        "label": "crudProdutos",
+        "kind": 2,
+        "importPath": "src.menu.crudProdutos",
+        "description": "src.menu.crudProdutos",
+        "peekOfCode": "def crudProdutos(colecao, isVendedor = False):\n    while True:\n        limparTerminal()\n        print(\"--\" * 30)\n        print(\"Inserção de produtos\")\n        print(\"1 - Inserir Produto\")\n        print(\"2 - Remover Produto\")\n        print(\"3 - Listar Produtos\")\n        print(\"4 - Listar Todos Produtos registrados\")\n        print(\"0 - Voltar\")",
+        "detail": "src.menu.crudProdutos",
         "documentation": {}
     },
     {
@@ -638,8 +2691,17 @@
         "kind": 2,
         "importPath": "src.menu.menuCompra",
         "description": "src.menu.menuCompra",
-        "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Consultar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuCompra():\n    while True:\n        if not checarSessao():\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")",
         "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuLogin",
+        "kind": 2,
+        "importPath": "src.menu.menuLogin",
+        "description": "src.menu.menuLogin",
+        "peekOfCode": "def menuLogin():\n    if checarSessao():\n        menuPrincipal()\n    while True:\n        limparTerminal()\n        print(\"≡≡\" * 30)\n        print(\"Bem Vindo ao CRUD utilizando Redis e MongoDB!\")\n        print(\"1 - Registrar\")\n        print(\"2 - Fazer login\")\n        print(\"3 - Definir tempo de expiração do próprio login\")",
+        "detail": "src.menu.menuLogin",
         "documentation": {}
     },
     {
@@ -647,7 +2709,7 @@
         "kind": 2,
         "importPath": "src.menu.menuPrincipal",
         "description": "src.menu.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        # print(\"1 - CRUD Compras\")\n        # print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários\")\n        # print(\"4 - CRUD Vendedores\")\n        # print(\"5 - Sincronizar Dados\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        if not checarSessao():\n            print(\"\\nVocê não está logado! Faça login para acessar o sistema\")\n            input()\n            return\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        print(\"1 - CRUD Compras\")",
         "detail": "src.menu.menuPrincipal",
         "documentation": {}
     },
@@ -656,7 +2718,7 @@
         "kind": 2,
         "importPath": "src.menu.menuProduto",
         "description": "src.menu.menuProduto",
-        "peekOfCode": "def menuProduto():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Produtos\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Consultar Produtos\")\n        print(\"3 - Atualizar Produto\")\n        print(\"4 - Deletar Produto\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuProduto():\n    while True:\n        if not checarSessao():\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Produtos\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Listar Produtos\")\n        print(\"3 - Atualizar Produto\")",
         "detail": "src.menu.menuProduto",
         "documentation": {}
     },
@@ -665,7 +2727,7 @@
         "kind": 2,
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
-        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Consultar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        if not checarSessao():\n            moverUsuariosParaMongo()\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")",
         "detail": "src.menu.menuUsuario",
         "documentation": {}
     },
@@ -674,8 +2736,26 @@
         "kind": 2,
         "importPath": "src.menu.menuVendedor",
         "description": "src.menu.menuVendedor",
-        "peekOfCode": "def menuVendedor():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Consultar Vendedores\")\n        print(\"3 - Atualizar Vendedor\")\n        print(\"4 - Deletar Vendedor\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuVendedor():\n    while True:\n        if not checarSessao():\n            moverUsuariosParaMongo()\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Listar Vendedor\")",
         "detail": "src.menu.menuVendedor",
+        "documentation": {}
+    },
+    {
+        "label": "Compra",
+        "kind": 6,
+        "importPath": "src.model.compra",
+        "description": "src.model.compra",
+        "peekOfCode": "class Compra:\n    def calcularValorTotal(self):\n        valor = 0\n        for produto in self.produtos:\n            valor += int(produto[\"preco\"])\n        self.valorTotal = valor\n    def __init__ (self, data_compra, usuario = None, produtos = None, id = None) -> None:\n        if id == None:\n            self.id = None\n        else:",
+        "detail": "src.model.compra",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "src.model.produto",
+        "description": "src.model.produto",
+        "peekOfCode": "class Produto:\n    def __init__ (self, nome, descricao, preco, estoque, vendedor = None, id = None) -> None:\n        if id == None:\n            self.id = None\n        else:\n            self.id = id\n        self.nome = nome\n        self.descricao = descricao\n        self.preco = preco\n        self.estoque = estoque",
+        "detail": "src.model.produto",
         "documentation": {}
     },
     {
@@ -683,8 +2763,62 @@
         "kind": 6,
         "importPath": "src.model.usuario",
         "description": "src.model.usuario",
-        "peekOfCode": "class Usuario():\n    def __init__(self, nome:str, endereco:str, rg:str) -> None:\n        self.nome = nome\n        self.endereco = endereco\n        self.rg = rg\n    def atualizar(self, usuario):\n        if usuario.nome != \"\":\n            self.setNome(usuario.nome)\n        if usuario.endereco != \"\":\n            self.setEndereco(usuario.endereco)",
+        "peekOfCode": "class Usuario():\n    def __init__(self, id, nome:str, endereco:str, rg:str) -> None:\n        self.id = id\n        self.nome = nome\n        self.endereco = endereco\n        self.rg = rg\n    def atualizar(self, usuario):\n        if usuario.id != \"\":\n            self.setId(usuario.id)\n        if usuario.nome != \"\":",
         "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Vendedor",
+        "kind": 6,
+        "importPath": "src.model.vendedor",
+        "description": "src.model.vendedor",
+        "peekOfCode": "class Vendedor():\n    def __init__(self, id, nome, rg, produtos: dict = None) -> None:\n        self.id = id\n        self.nome = nome\n        self.rg = rg\n        if produtos == None:\n            self.produtos = []\n        else:\n            self.produtos = produtos\n    def atualizar(self, vendedor):",
+        "detail": "src.model.vendedor",
+        "documentation": {}
+    },
+    {
+        "label": "pegarUsuario",
+        "kind": 2,
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "peekOfCode": "def pegarUsuario(usuario):\n    if usuario is None:\n        return \"Não possui usuário cadastrado\"\n    else:\n        usuarioJson = {\n            \"_id\": usuario[\"_id\"],\n            \"nome\": usuario[\"nome\"],\n            \"endereco\": usuario[\"endereco\"],\n        }\n        return usuarioJson",
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "compraParaJson",
+        "kind": 2,
+        "importPath": "src.utils.compraParaJson",
+        "description": "src.utils.compraParaJson",
+        "peekOfCode": "def compraParaJson(compra):\n    compraJson = {\n        \"usuario\": pegarUsuario(compra.usuario),\n        \"produtos\": compra.produtos,\n        \"data_compra\": compra.data_compra,\n        \"valorTotal\": compra.valorTotal\n    }\n    return compraJson",
+        "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "kind": 2,
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "peekOfCode": "def criptografarSenha(senha):\n    return hashlib.sha256(senha.encode()).hexdigest()",
+        "detail": "src.utils.criptografarSenha",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaCompra",
+        "kind": 2,
+        "importPath": "src.utils.jsonParaCompra",
+        "description": "src.utils.jsonParaCompra",
+        "peekOfCode": "def jsonParaCompra(compraJson):\n    compra = Compra(\n        compraJson[\"data_compra\"],\n        compraJson[\"usuario\"],\n        compraJson[\"produtos\"],\n        compraJson[\"_id\"]\n    )\n    return compra",
+        "detail": "src.utils.jsonParaCompra",
+        "documentation": {}
+    },
+    {
+        "label": "JsonParaProduto",
+        "kind": 2,
+        "importPath": "src.utils.jsonParaProduto",
+        "description": "src.utils.jsonParaProduto",
+        "peekOfCode": "def JsonParaProduto(produtoJson):\n    produto = Produto(\n        produtoJson[\"nome\"], \n        produtoJson[\"descricao\"], \n        produtoJson[\"preco\"], \n        produtoJson[\"estoque\"], \n        produtoJson[\"vendedor\"], \n        produtoJson[\"_id\"]\n    )\n    return produto",
+        "detail": "src.utils.jsonParaProduto",
         "documentation": {}
     },
     {
@@ -692,8 +2826,17 @@
         "kind": 2,
         "importPath": "src.utils.jsonParaUsuario",
         "description": "src.utils.jsonParaUsuario",
-        "peekOfCode": "def jsonParaUsuario(usuarioJson):\n    usuario = Usuario(usuarioJson[\"nome\"], usuarioJson[\"endereco\"], usuarioJson[\"rg\"])\n    return usuario",
+        "peekOfCode": "def jsonParaUsuario(usuarioJson):\n    usuario = Usuario(\n        usuarioJson[\"_id\"], \n        usuarioJson[\"nome\"], \n        usuarioJson[\"endereco\"], \n        usuarioJson[\"rg\"]\n    )\n    return usuario",
         "detail": "src.utils.jsonParaUsuario",
+        "documentation": {}
+    },
+    {
+        "label": "jsonParaVendedor",
+        "kind": 2,
+        "importPath": "src.utils.jsonParaVendedor",
+        "description": "src.utils.jsonParaVendedor",
+        "peekOfCode": "def jsonParaVendedor(vendedorJson):\n    vendedor = Vendedor(\n        vendedorJson[\"_id\"],\n        vendedorJson[\"nome\"],\n        vendedorJson[\"rg\"],\n        vendedorJson[\"produtos\"]\n    )\n    return vendedor",
+        "detail": "src.utils.jsonParaVendedor",
         "documentation": {}
     },
     {
@@ -706,12 +2849,39 @@
         "documentation": {}
     },
     {
+        "label": "pegarVendedor",
+        "kind": 2,
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "peekOfCode": "def pegarVendedor(vendedor):\n    if vendedor == None:\n        return \"Não possui vendedor cadastrado\"\n    else:\n        vendedorJson = {\n            \"_id\": vendedor.id,\n            \"nome\": vendedor.nome,\n        }\n        return vendedorJson\ndef produtoParaJson(produto: Produto):",
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "produtoParaJson",
+        "kind": 2,
+        "importPath": "src.utils.produtoParaJson",
+        "description": "src.utils.produtoParaJson",
+        "peekOfCode": "def produtoParaJson(produto: Produto):\n    produtoJson = {\n        \"nome\": produto.nome,\n        \"vendedor\": pegarVendedor(produto.vendedor),\n        \"descricao\": produto.descricao,\n        \"preco\": produto.preco,\n        \"estoque\": produto.estoque,\n    }\n    return produtoJson",
+        "detail": "src.utils.produtoParaJson",
+        "documentation": {}
+    },
+    {
         "label": "usuarioParaJson",
         "kind": 2,
         "importPath": "src.utils.usuarioParaJson",
         "description": "src.utils.usuarioParaJson",
-        "peekOfCode": "def usuarioParaJson(usuario, chave = None):\n    if chave != None:\n        usuarioJson = {\n            \"nome\": usuario.nome,\n            \"endereco\": usuario.endereco,\n            \"rg\": usuario.rg,\n            \"chave\": chave\n        }\n    else:\n        usuarioJson = {",
+        "peekOfCode": "def usuarioParaJson(usuario, hasId = True):\n    if hasId:\n        usuarioJson = {\n            \"_id\": usuario.id,\n            \"nome\": usuario.nome,\n            \"endereco\": usuario.endereco,\n            \"rg\": usuario.rg\n        }\n        return json.dumps(usuarioJson)\n    if not hasId:",
         "detail": "src.utils.usuarioParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "vendedorParaJson",
+        "kind": 2,
+        "importPath": "src.utils.vendedorParaJson",
+        "description": "src.utils.vendedorParaJson",
+        "peekOfCode": "def vendedorParaJson(vendedor, hasId = True):\n    if hasId:\n        vendedorParaJson = {\n            \"_id\": vendedor.id,\n            \"nome\": vendedor.nome,\n            \"rg\": vendedor.rg,\n            \"produtos\": vendedor.produtos\n        }\n        input()\n        return json.dumps(vendedorParaJson)",
+        "detail": "src.utils.vendedorParaJson",
         "documentation": {}
     }
 ]

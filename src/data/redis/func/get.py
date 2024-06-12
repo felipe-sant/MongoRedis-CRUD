@@ -1,8 +1,11 @@
 from src.data.redis.connection import connection
 import json
 
-def get(chave):
+def get(chave, isJson = True):
     try:
-        return json.loads(connection.get(chave))
+        if isJson:
+            return json.loads(connection.get(chave))
+        return connection.get(chave)
     except Exception as e:
+        print(e)
         return None

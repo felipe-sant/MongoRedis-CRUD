@@ -1,18 +1,25 @@
 from src.utils.limparTerminal import limparTerminal
 from src.func.usuario.cadastrarUsuario import cadastrarUsuario
-from src.func.usuario.consultarUsuario import consultarUsuario
-from src.func.usuario.excluirUsuario import excluirTodosUsuarios, excluirUsuario
+from src.func.usuario.listarUsuario import listarUsuario
+from src.func.usuario.deletarUsuario import deletarUsuario
 from src.func.usuario.atualizarUsuario import atualizarUsuario
+from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuUsuario():
     while True:
+        if not checarSessao():
+            moverUsuariosParaMongo()
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Usuários")
         print("1 - Cadastrar Usuário")
-        print("2 - Consultar Usuários")
+        print("2 - Listar Usuários")
         print("3 - Atualizar Usuário")
         print("4 - Deletar Usuário")
+        print("5 - Mover Usuários do Redis para MongoDB")
         print("0 - Voltar")
         print("=-" * 30 + "\n")
         
@@ -22,13 +29,13 @@ def menuUsuario():
             case "1":
                 cadastrarUsuario()
             case "2":
-                consultarUsuario()
+                listarUsuario()
             case "3":
                 atualizarUsuario()
             case "4":
-                excluirUsuario()
+                deletarUsuario()
             case "5":
-                excluirTodosUsuarios()
+                moverUsuariosParaMongo()
             case "0":
                 break
             case _:

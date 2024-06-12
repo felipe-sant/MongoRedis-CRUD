@@ -1,20 +1,13 @@
 from src.func.criarChave import criarChave
-from src.data.redis.func.set import set
-from src.utils.usuarioParaJson import usuarioParaJson
-from src.func.usuario.criarUsuario import criarUsuario
 from src.func.verificarChaveExistente import verificarChaveExistente
+from src.func.usuario.criarUsuario import criarUsuario
+from src.func.usuario.sincronizacao.adicionarUsuarioAoRedis import adicionarUsuarioAoRedis
 
 def cadastrarUsuario():
-    chave = criarChave("usuario")
-    try:
-        if (verificarChaveExistente("usuario", chave)):
-            print("\nUsuário já cadastrado!")
-            input()
-            return
-        usuario = criarUsuario()
-        set(chave, usuarioParaJson(usuario, chave))
-        print("\nUsuário cadastrado com sucesso!")
+    id = criarChave("usuario")
+    if verificarChaveExistente("usuario", id):
+        print("\nErro: chave já existente")
         input()
-    except Exception as e:
-        print(f"\nErro ao cadastrar usuário: {e}")
-        input()
+        return
+    usuario = criarUsuario(id)
+    adicionarUsuarioAoRedis(usuario)

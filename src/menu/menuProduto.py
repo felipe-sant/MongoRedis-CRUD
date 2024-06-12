@@ -1,12 +1,21 @@
 from src.utils.limparTerminal import limparTerminal
+from src.func.produto.cadastrarProduto import cadastrarProduto
+from src.func.produto.listarProduto import listarProduto
+from src.func.produto.atualizarProduto import atualizarProduto
+from src.func.produto.deletarProduto import deletarProduto
+from src.data.mongo.func.deletar import deletarTodosMongo
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuProduto():
     while True:
+        if not checarSessao():
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Produtos")
         print("1 - Cadastrar Produto")
-        print("2 - Consultar Produtos")
+        print("2 - Listar Produtos")
         print("3 - Atualizar Produto")
         print("4 - Deletar Produto")
         print("0 - Voltar")
@@ -16,17 +25,13 @@ def menuProduto():
         
         match opcao:
             case "1":
-                print("Cadastrar Produto")
-                input()
+                cadastrarProduto()
             case "2":
-                print("Consultar Produtos")
-                input()
+                listarProduto()
             case "3":
-                print("Atualizar Produto")
-                input()
+                atualizarProduto()
             case "4":
-                print("Deletar Produto")
-                input()
+                deletarProduto()
             case "0":
                 break
             case _:

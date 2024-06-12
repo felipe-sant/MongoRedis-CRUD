@@ -1,17 +1,18 @@
 import json
 
-def usuarioParaJson(usuario, chave = None):
-    if chave != None:
+def usuarioParaJson(usuario, hasId = True):
+    if hasId:
         usuarioJson = {
+            "_id": usuario.id,
             "nome": usuario.nome,
             "endereco": usuario.endereco,
-            "rg": usuario.rg,
-            "chave": chave
+            "rg": usuario.rg
         }
-    else:
+        return json.dumps(usuarioJson)
+    if not hasId:
         usuarioJson = {
             "nome": usuario.nome,
             "endereco": usuario.endereco,
             "rg": usuario.rg
         }
-    return json.dumps(usuarioJson)
+        return usuarioJson
