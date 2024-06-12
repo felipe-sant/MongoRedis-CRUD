@@ -81,6 +81,14 @@
         "documentation": {}
     },
     {
+        "label": "connection",
+        "importPath": "src.data.redis.connection",
+        "description": "src.data.redis.connection",
+        "isExtraImport": true,
+        "detail": "src.data.redis.connection",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -723,14 +731,6 @@
         "documentation": {}
     },
     {
-        "label": "deletarTodosMongo",
-        "importPath": "src.data.mongo.func.deletar",
-        "description": "src.data.mongo.func.deletar",
-        "isExtraImport": true,
-        "detail": "src.data.mongo.func.deletar",
-        "documentation": {}
-    },
-    {
         "label": "ObjectId",
         "importPath": "bson",
         "description": "bson",
@@ -891,51 +891,211 @@
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "src.model.usuario",
-        "description": "src.model.usuario",
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
         "isExtraImport": true,
-        "detail": "src.model.usuario",
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "criarChave",
+        "importPath": "src.func.criarChave",
+        "description": "src.func.criarChave",
+        "isExtraImport": true,
+        "detail": "src.func.criarChave",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "verificarChaveExistente",
+        "importPath": "src.func.verificarChaveExistente",
+        "description": "src.func.verificarChaveExistente",
+        "isExtraImport": true,
+        "detail": "src.func.verificarChaveExistente",
+        "documentation": {}
+    },
+    {
+        "label": "expire",
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.expire",
+        "documentation": {}
+    },
+    {
+        "label": "expire",
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.expire",
         "documentation": {}
     },
     {
@@ -979,35 +1139,27 @@
         "documentation": {}
     },
     {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
+        "detail": "src.data.redis.func.set",
         "documentation": {}
     },
     {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
+        "detail": "src.data.redis.func.set",
         "documentation": {}
     },
     {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
+        "label": "set",
+        "importPath": "src.data.redis.func.set",
+        "description": "src.data.redis.func.set",
         "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "importPath": "src.data.redis.func.keys",
-        "description": "src.data.redis.func.keys",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.keys",
+        "detail": "src.data.redis.func.set",
         "documentation": {}
     },
     {
@@ -1040,6 +1192,176 @@
         "description": "src.data.redis.func.delete",
         "isExtraImport": true,
         "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "src.data.redis.func.delete",
+        "description": "src.data.redis.func.delete",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.delete",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "getpass",
+        "description": "getpass",
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "src.data.redis.func.get",
+        "description": "src.data.redis.func.get",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.get",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "isExtraImport": true,
+        "detail": "src.utils.criptografarSenha",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "isExtraImport": true,
+        "detail": "src.utils.criptografarSenha",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "menuPrincipal",
+        "importPath": "src.menu.menuPrincipal",
+        "description": "src.menu.menuPrincipal",
+        "isExtraImport": true,
+        "detail": "src.menu.menuPrincipal",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.model.usuario",
+        "description": "src.model.usuario",
+        "isExtraImport": true,
+        "detail": "src.model.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "importPath": "src.data.redis.func.keys",
+        "description": "src.data.redis.func.keys",
+        "isExtraImport": true,
+        "detail": "src.data.redis.func.keys",
         "documentation": {}
     },
     {
@@ -1123,134 +1445,6 @@
         "documentation": {}
     },
     {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "criarChave",
-        "importPath": "src.func.criarChave",
-        "description": "src.func.criarChave",
-        "isExtraImport": true,
-        "detail": "src.func.criarChave",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
-        "label": "verificarChaveExistente",
-        "importPath": "src.func.verificarChaveExistente",
-        "description": "src.func.verificarChaveExistente",
-        "isExtraImport": true,
-        "detail": "src.func.verificarChaveExistente",
-        "documentation": {}
-    },
-    {
         "label": "criarUsuario",
         "importPath": "src.func.usuario.criarUsuario",
         "description": "src.func.usuario.criarUsuario",
@@ -1264,30 +1458,6 @@
         "description": "src.func.usuario.criarUsuario",
         "isExtraImport": true,
         "detail": "src.func.usuario.criarUsuario",
-        "documentation": {}
-    },
-    {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
-        "documentation": {}
-    },
-    {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
-        "documentation": {}
-    },
-    {
-        "label": "get",
-        "importPath": "src.data.redis.func.get",
-        "description": "src.data.redis.func.get",
-        "isExtraImport": true,
-        "detail": "src.data.redis.func.get",
         "documentation": {}
     },
     {
@@ -1312,6 +1482,14 @@
         "description": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
         "isExtraImport": true,
         "detail": "src.func.usuario.sincronizacao.adicionarUsuarioAoRedis",
+        "documentation": {}
+    },
+    {
+        "label": "moverUsuariosParaMongo",
+        "importPath": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "description": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
+        "isExtraImport": true,
+        "detail": "src.func.usuario.sincronizacao.moverUsuariosParaMongo",
         "documentation": {}
     },
     {
@@ -1627,6 +1805,14 @@
         "documentation": {}
     },
     {
+        "label": "limparTerminal",
+        "importPath": "src.utils.limparTerminal",
+        "description": "src.utils.limparTerminal",
+        "isExtraImport": true,
+        "detail": "src.utils.limparTerminal",
+        "documentation": {}
+    },
+    {
         "label": "listarProduto",
         "importPath": "src.func.produto.listarProduto",
         "description": "src.func.produto.listarProduto",
@@ -1691,6 +1877,78 @@
         "documentation": {}
     },
     {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "importPath": "src.func.sistemaDeLogin.registrar",
+        "description": "src.func.sistemaDeLogin.registrar",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.registrar",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "src.func.sistemaDeLogin.login",
+        "description": "src.func.sistemaDeLogin.login",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.login",
+        "documentation": {}
+    },
+    {
+        "label": "definirTempoExpiracao",
+        "importPath": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "description": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "documentation": {}
+    },
+    {
         "label": "menuUsuario",
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
@@ -1720,6 +1978,14 @@
         "description": "src.menu.menuCompra",
         "isExtraImport": true,
         "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "expirarSessao",
+        "importPath": "src.func.sistemaDeLogin.expirarSessao",
+        "description": "src.func.sistemaDeLogin.expirarSessao",
+        "isExtraImport": true,
+        "detail": "src.func.sistemaDeLogin.expirarSessao",
         "documentation": {}
     },
     {
@@ -1828,11 +2094,11 @@
         "documentation": {}
     },
     {
-        "label": "menuPrincipal",
-        "importPath": "src.menu.menuPrincipal",
-        "description": "src.menu.menuPrincipal",
+        "label": "menuLogin",
+        "importPath": "src.menu.menuLogin",
+        "description": "src.menu.menuLogin",
         "isExtraImport": true,
-        "detail": "src.menu.menuPrincipal",
+        "detail": "src.menu.menuLogin",
         "documentation": {}
     },
     {
@@ -1908,11 +2174,20 @@
         "documentation": {}
     },
     {
+        "label": "expire",
+        "kind": 2,
+        "importPath": "src.data.redis.func.expire",
+        "description": "src.data.redis.func.expire",
+        "peekOfCode": "def expire(chave, segundos):\n    connection.expire(chave, segundos)",
+        "detail": "src.data.redis.func.expire",
+        "documentation": {}
+    },
+    {
         "label": "get",
         "kind": 2,
         "importPath": "src.data.redis.func.get",
         "description": "src.data.redis.func.get",
-        "peekOfCode": "def get(chave):\n    try:\n        return json.loads(connection.get(chave))\n    except Exception as e:\n        return None",
+        "peekOfCode": "def get(chave, isJson = True):\n    try:\n        if isJson:\n            return json.loads(connection.get(chave))\n        return connection.get(chave)\n    except Exception as e:\n        print(e)\n        return None",
         "detail": "src.data.redis.func.get",
         "documentation": {}
     },
@@ -2058,6 +2333,51 @@
         "description": "src.func.produto.listarProduto",
         "peekOfCode": "def listarProduto():\n    id = input(\"Digite o id do produto (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        listaDeProdutos = buscarTodosProdutosDoMongo()\n        print()\n        for i in range(len(listaDeProdutos)):\n            print(f\"- ({i+1}/{len(listaDeProdutos)}) -\")\n            listaDeProdutos[i].mostrar()\n            input()\n        return",
         "detail": "src.func.produto.listarProduto",
+        "documentation": {}
+    },
+    {
+        "label": "checarSessao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.checarSessao",
+        "description": "src.func.sistemaDeLogin.checarSessao",
+        "peekOfCode": "def checarSessao():\n    sessao_chave = criarChave(\"sessions\", \"redis\")\n    if verificarChaveExistente(\"sessions\", sessao_chave):\n        return True\n    return False",
+        "detail": "src.func.sistemaDeLogin.checarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "definirTempoExpiracao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "description": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "peekOfCode": "def definirTempoExpiracao():\n    segundos = int(input(\"Digite o tempo de expiração da sessão em segundos: \"))\n    sessao_chave = criarChave(\"sessions\", \"tempoDeExpiracao\")\n    set(sessao_chave, segundos)\n    print(\"\\nTempo de expiração definido com sucesso!\")\n    input()",
+        "detail": "src.func.sistemaDeLogin.definirTempoExpiracao",
+        "documentation": {}
+    },
+    {
+        "label": "expirarSessao",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.expirarSessao",
+        "description": "src.func.sistemaDeLogin.expirarSessao",
+        "peekOfCode": "def expirarSessao():\n    sessao_chave = criarChave(\"sessions\", \"redis\")\n    if verificarChaveExistente(\"sessions\", sessao_chave):\n        delete(sessao_chave)",
+        "detail": "src.func.sistemaDeLogin.expirarSessao",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.login",
+        "description": "src.func.sistemaDeLogin.login",
+        "peekOfCode": "def login():\n    nomeDeUser = str(input(\"Nome de usuário: \"))\n    senha = str(getpass.getpass(\"Senha: \"))\n    chave = criarChave(\"system_users\", nomeDeUser)\n    senhaDoServidor = get(chave, False)\n    if senhaDoServidor != None:\n        senhaDoServidor = senhaDoServidor.decode(\"utf-8\")\n    if criptografarSenha(senha) == senhaDoServidor:\n        sessao_chave = criarChave(\"sessions\", \"redis\")\n        sessao_id = hashlib.sha256((nomeDeUser+senha).encode()).hexdigest()",
+        "detail": "src.func.sistemaDeLogin.login",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "kind": 2,
+        "importPath": "src.func.sistemaDeLogin.registrar",
+        "description": "src.func.sistemaDeLogin.registrar",
+        "peekOfCode": "def registrar():\n    nomeDeUser = str(input(\"Nome de usuário: \"))\n    senha = str(getpass.getpass(\"Senha: \"))\n    confirmacaoDeSenha = str(getpass.getpass(\"Confirme sua senha: \"))\n    if senha != confirmacaoDeSenha:\n        print(\"\\nAs senhas não coincidem!\")\n        input()\n        return\n    chave = criarChave(\"system_users\", nomeDeUser)\n    senhaCriptografada = criptografarSenha(senha)",
+        "detail": "src.func.sistemaDeLogin.registrar",
         "documentation": {}
     },
     {
@@ -2371,8 +2691,17 @@
         "kind": 2,
         "importPath": "src.menu.menuCompra",
         "description": "src.menu.menuCompra",
-        "peekOfCode": "def menuCompra():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")\n        print(\"4 - Deletar Compra\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuCompra():\n    while True:\n        if not checarSessao():\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Compras\")\n        print(\"1 - Cadastrar Compra\")\n        print(\"2 - Listar Compras\")\n        print(\"3 - Atualizar Compra\")",
         "detail": "src.menu.menuCompra",
+        "documentation": {}
+    },
+    {
+        "label": "menuLogin",
+        "kind": 2,
+        "importPath": "src.menu.menuLogin",
+        "description": "src.menu.menuLogin",
+        "peekOfCode": "def menuLogin():\n    if checarSessao():\n        menuPrincipal()\n    while True:\n        limparTerminal()\n        print(\"≡≡\" * 30)\n        print(\"Bem Vindo ao CRUD utilizando Redis e MongoDB!\")\n        print(\"1 - Registrar\")\n        print(\"2 - Fazer login\")\n        print(\"3 - Definir tempo de expiração do próprio login\")",
+        "detail": "src.menu.menuLogin",
         "documentation": {}
     },
     {
@@ -2380,7 +2709,7 @@
         "kind": 2,
         "importPath": "src.menu.menuPrincipal",
         "description": "src.menu.menuPrincipal",
-        "peekOfCode": "def menuPrincipal():\n    while True:\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        print(\"1 - CRUD Compras\")\n        print(\"2 - CRUD Produtos\")\n        print(\"3 - CRUD Usuários (com redis)\")\n        print(\"4 - CRUD Vendedores (com redis)\")\n        print(\"0 - Sair\")",
+        "peekOfCode": "def menuPrincipal():\n    while True:\n        if not checarSessao():\n            print(\"\\nVocê não está logado! Faça login para acessar o sistema\")\n            input()\n            return\n        limparTerminal()\n        print(\"==\" * 30)\n        print(\"Menu Principal\")\n        print(\"1 - CRUD Compras\")",
         "detail": "src.menu.menuPrincipal",
         "documentation": {}
     },
@@ -2389,7 +2718,7 @@
         "kind": 2,
         "importPath": "src.menu.menuProduto",
         "description": "src.menu.menuProduto",
-        "peekOfCode": "def menuProduto():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Produtos\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Listar Produtos\")\n        print(\"3 - Atualizar Produto\")\n        print(\"4 - Deletar Produto\")\n        print(\"0 - Voltar\")",
+        "peekOfCode": "def menuProduto():\n    while True:\n        if not checarSessao():\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Produtos\")\n        print(\"1 - Cadastrar Produto\")\n        print(\"2 - Listar Produtos\")\n        print(\"3 - Atualizar Produto\")",
         "detail": "src.menu.menuProduto",
         "documentation": {}
     },
@@ -2398,7 +2727,7 @@
         "kind": 2,
         "importPath": "src.menu.menuUsuario",
         "description": "src.menu.menuUsuario",
-        "peekOfCode": "def menuUsuario():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")\n        print(\"3 - Atualizar Usuário\")\n        print(\"4 - Deletar Usuário\")\n        print(\"5 - Mover Usuários do Redis para MongoDB\")",
+        "peekOfCode": "def menuUsuario():\n    while True:\n        if not checarSessao():\n            moverUsuariosParaMongo()\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Usuários\")\n        print(\"1 - Cadastrar Usuário\")\n        print(\"2 - Listar Usuários\")",
         "detail": "src.menu.menuUsuario",
         "documentation": {}
     },
@@ -2407,7 +2736,7 @@
         "kind": 2,
         "importPath": "src.menu.menuVendedor",
         "description": "src.menu.menuVendedor",
-        "peekOfCode": "def menuVendedor():\n    while True:\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Listar Vendedor\")\n        print(\"3 - Atualizar Vendedor\")\n        print(\"4 - Deletar Vendedor\")\n        print(\"5 - Mover Vendedores do Redis para MongoDB\")",
+        "peekOfCode": "def menuVendedor():\n    while True:\n        if not checarSessao():\n            moverUsuariosParaMongo()\n            return\n        limparTerminal()\n        print(\"=-\" * 30)\n        print(\"Menu Vendedor\")\n        print(\"1 - Cadastrar Vendedor\")\n        print(\"2 - Listar Vendedor\")",
         "detail": "src.menu.menuVendedor",
         "documentation": {}
     },
@@ -2463,6 +2792,15 @@
         "description": "src.utils.compraParaJson",
         "peekOfCode": "def compraParaJson(compra):\n    compraJson = {\n        \"usuario\": pegarUsuario(compra.usuario),\n        \"produtos\": compra.produtos,\n        \"data_compra\": compra.data_compra,\n        \"valorTotal\": compra.valorTotal\n    }\n    return compraJson",
         "detail": "src.utils.compraParaJson",
+        "documentation": {}
+    },
+    {
+        "label": "criptografarSenha",
+        "kind": 2,
+        "importPath": "src.utils.criptografarSenha",
+        "description": "src.utils.criptografarSenha",
+        "peekOfCode": "def criptografarSenha(senha):\n    return hashlib.sha256(senha.encode()).hexdigest()",
+        "detail": "src.utils.criptografarSenha",
         "documentation": {}
     },
     {

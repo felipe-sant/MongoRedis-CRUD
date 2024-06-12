@@ -4,9 +4,14 @@ from src.func.usuario.listarUsuario import listarUsuario
 from src.func.usuario.deletarUsuario import deletarUsuario
 from src.func.usuario.atualizarUsuario import atualizarUsuario
 from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuUsuario():
     while True:
+        if not checarSessao():
+            moverUsuariosParaMongo()
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Usuários")

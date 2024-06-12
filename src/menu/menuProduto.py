@@ -4,9 +4,13 @@ from src.func.produto.listarProduto import listarProduto
 from src.func.produto.atualizarProduto import atualizarProduto
 from src.func.produto.deletarProduto import deletarProduto
 from src.data.mongo.func.deletar import deletarTodosMongo
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuProduto():
     while True:
+        if not checarSessao():
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Produtos")

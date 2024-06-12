@@ -3,9 +3,13 @@ from src.func.compra.cadastrarCompra import cadastrarCompra
 from src.func.compra.listarCompra import listarCompra
 from src.func.compra.deletarCompra import deletarCompra
 from src.func.compra.atualizarCompra import atualizarCompra
+from src.func.sistemaDeLogin.checarSessao import checarSessao
 
 def menuCompra():
     while True:
+        if not checarSessao():
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Compras")

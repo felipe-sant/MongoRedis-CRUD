@@ -4,10 +4,15 @@ from src.func.vendedor.atualizarVendedor import atualizarVendedor
 from src.func.vendedor.deletarVendedor import deletarVendedor
 from src.func.vendedor.sincronizacao.moverVendedoresParaMongo import moverVendedoresParaMongo
 from src.func.vendedor.cadastrarVendedor import cadastrarVendedor
-from src.data.mongo.func.deletar import deletarTodosMongo
+from src.func.sistemaDeLogin.checarSessao import checarSessao
+from src.func.usuario.sincronizacao.moverUsuariosParaMongo import moverUsuariosParaMongo
 
 def menuVendedor():
     while True:
+        if not checarSessao():
+            moverUsuariosParaMongo()
+            return
+        
         limparTerminal()
         print("=-" * 30)
         print("Menu Vendedor")
