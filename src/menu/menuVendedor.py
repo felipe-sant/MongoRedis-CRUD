@@ -1,9 +1,9 @@
 from src.utils.limparTerminal import limparTerminal
-from src.func.vendedor.cadastrarVendededor import cadastrarVendedor
 from src.func.vendedor.listarVendedor import listarVendedor
 from src.func.vendedor.atualizarVendedor import atualizarVendedor
 from src.func.vendedor.deletarVendedor import deletarVendedor
 from src.func.vendedor.sincronizacao.moverVendedoresParaMongo import moverVendedoresParaMongo
+from src.func.vendedor.cadastrarVendedor import cadastrarVendedor
 
 def menuVendedor():
     while True:

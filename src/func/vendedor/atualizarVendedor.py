@@ -8,6 +8,7 @@ from src.func.verificarIdExistente import verificarIdExistente
 from src.func.vendedor.sincronizacao.atualizarVendedorNoRedis import atualizarVendedorNoRedis
 from src.data.mongo.func.buscar import buscarMongo
 from src.func.vendedor.sincronizacao.atualizarVendedorNoMongo import atualizarVendedorNoMongo
+from src.menu.menuVendedorProduto import menuVendedorProduto
 
 def atualizarVendedor():
     id = input("Digite o id do vendedor: ")
@@ -17,8 +18,6 @@ def atualizarVendedor():
             vendedor = jsonParaVendedor(get(chave))
             vendedorNovo = criarVendedor(chave)
             atualizarVendedorNoRedis(chave, vendedor, vendedorNovo)
-            print("\nVendedor atualizado com sucesso!")
-            input()
             return
         else:
             raise

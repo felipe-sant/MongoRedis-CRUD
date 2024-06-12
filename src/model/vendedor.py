@@ -17,8 +17,6 @@ class Vendedor():
             self.setNome(vendedor.nome)
         if vendedor.rg != "":
             self.setRg(vendedor.rg)
-        if vendedor.produtos != "":
-            self.setProdutos(vendedor.produtos)
         
     def setId(self, id):
         self.id = id
@@ -32,7 +30,7 @@ class Vendedor():
     def setProdutos(self, produtos):
         self.produtos = produtos
         
-    def addProdutos(self, produto):
+    def addProduto(self, produto):
         self.produtos.append(produto)
         
     def removeProduto(self, produto):
@@ -45,4 +43,7 @@ class Vendedor():
         if len(self.produtos) > 0:
             print("produtos:")
             for produto in self.produtos:
-                print(f"\t{produto}")
+                print("\t-----------------")
+                print(f"\t_id: {produto['_id']}")
+                print(f"\tnome: {produto['nome']}")
+                print(f"\tpreco: {produto['preco']}")

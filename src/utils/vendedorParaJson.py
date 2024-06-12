@@ -8,6 +8,7 @@ def vendedorParaJson(vendedor, hasId = True):
             "rg": vendedor.rg,
             "produtos": vendedor.produtos
         }
+        input()
         return json.dumps(vendedorParaJson)
     if not hasId:
         vendedorParaJson = {

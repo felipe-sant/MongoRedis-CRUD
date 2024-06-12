@@ -1,6 +1,7 @@
 from src.utils.limparTerminal import limparTerminal
 from src.menu.menuUsuario import menuUsuario
 from src.menu.menuVendedor import menuVendedor
+from src.menu.menuProduto import menuProduto
 
 def menuPrincipal():
     while True:
@@ -8,9 +9,9 @@ def menuPrincipal():
         print("==" * 30)
         print("Menu Principal")
         # print("1 - CRUD Compras")
-        # print("2 - CRUD Produtos")
-        print("3 - CRUD Usuários")
-        print("4 - CRUD Vendedores")
+        print("2 - CRUD Produtos")
+        print("3 - CRUD Usuários (com redis)")
+        print("4 - CRUD Vendedores (com redis)")
         print("0 - Sair")
         print("==" * 30 + "\n")
         
@@ -20,7 +21,7 @@ def menuPrincipal():
             case "1":
                 pass
             case "2":
-                pass
+                menuProduto()
             case "3":
                 menuUsuario()
             case "4":
