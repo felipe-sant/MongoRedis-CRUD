@@ -8,6 +8,9 @@ def listarCompra():
     id = input("Digite o id da compra (deixe em branco para listar todas): ")
     if id == "":
         listaDeCompras = buscarTodasComprasDoMongo()
+        if len(listaDeCompras) == 0:
+            print("\nNenhuma compra registrada")
+            input()
         print()
         for i in range(len(listaDeCompras)):
             print(f"- ({i+1}/{len(listaDeCompras)}) -")

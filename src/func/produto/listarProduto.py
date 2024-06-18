@@ -8,6 +8,8 @@ def listarProduto():
     id = input("Digite o id do produto (deixe em branco para listar todos): ")
     if (id == ""):
         listaDeProdutos = buscarTodosProdutosDoMongo()
+        if len(listaDeProdutos) == 0:
+            print("\nNenhum produto registrado")
         print()
         for i in range(len(listaDeProdutos)):
             print(f"- ({i+1}/{len(listaDeProdutos)}) -")
