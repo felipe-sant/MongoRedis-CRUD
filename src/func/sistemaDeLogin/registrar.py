@@ -23,8 +23,6 @@ def registrar():
         return
     
     try:
-        print(chave)
-        print(senhaCriptografada)
         set(chave, senhaCriptografada)
         print("\nUsuário registrado com sucesso")
         input()
