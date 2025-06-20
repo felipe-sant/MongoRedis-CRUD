@@ -2151,7 +2151,7 @@
         "kind": 5,
         "importPath": "src.data.mongo.connection",
         "description": "src.data.mongo.connection",
-        "peekOfCode": "client = pymongo.MongoClient(\"mongodb+srv://root:root@fatec.e8bszzd.mongodb.net/?retryWrites=true&w=majority&appName=fatec\", server_api=ServerApi('1'))\ndatabase = client.MercadoLivre",
+        "peekOfCode": "client = pymongo.MongoClient(\"mongodb+srv://root:root@fatec.typea.mongodb.net/?retryWrites=true&w=majority&appName=fatec\"\", server_api=ServerApi('1'))\ndatabase = client.MercadoLivre",
         "detail": "src.data.mongo.connection",
         "documentation": {}
     },
@@ -2277,7 +2277,7 @@
         "kind": 2,
         "importPath": "src.func.compra.listarCompra",
         "description": "src.func.compra.listarCompra",
-        "peekOfCode": "def listarCompra():\n    id = input(\"Digite o id da compra (deixe em branco para listar todas): \")\n    if id == \"\":\n        listaDeCompras = buscarTodasComprasDoMongo()\n        print()\n        for i in range(len(listaDeCompras)):\n            print(f\"- ({i+1}/{len(listaDeCompras)}) -\")\n            listaDeCompras[i].mostrar()\n            input()\n        return",
+        "peekOfCode": "def listarCompra():\n    id = input(\"Digite o id da compra (deixe em branco para listar todas): \")\n    if id == \"\":\n        listaDeCompras = buscarTodasComprasDoMongo()\n        if len(listaDeCompras) == 0:\n            print(\"\\nNenhuma compra registrada\")\n            input()\n        print()\n        for i in range(len(listaDeCompras)):\n            print(f\"- ({i+1}/{len(listaDeCompras)}) -\")",
         "detail": "src.func.compra.listarCompra",
         "documentation": {}
     },
@@ -2331,7 +2331,7 @@
         "kind": 2,
         "importPath": "src.func.produto.listarProduto",
         "description": "src.func.produto.listarProduto",
-        "peekOfCode": "def listarProduto():\n    id = input(\"Digite o id do produto (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        listaDeProdutos = buscarTodosProdutosDoMongo()\n        print()\n        for i in range(len(listaDeProdutos)):\n            print(f\"- ({i+1}/{len(listaDeProdutos)}) -\")\n            listaDeProdutos[i].mostrar()\n            input()\n        return",
+        "peekOfCode": "def listarProduto():\n    id = input(\"Digite o id do produto (deixe em branco para listar todos): \")\n    if (id == \"\"):\n        listaDeProdutos = buscarTodosProdutosDoMongo()\n        if len(listaDeProdutos) == 0:\n            print(\"\\nNenhum produto registrado\")\n        print()\n        for i in range(len(listaDeProdutos)):\n            print(f\"- ({i+1}/{len(listaDeProdutos)}) -\")\n            listaDeProdutos[i].mostrar()",
         "detail": "src.func.produto.listarProduto",
         "documentation": {}
     },
